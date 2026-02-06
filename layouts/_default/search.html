@@ -1,0 +1,239 @@
+{{ define "main" }}
+<div class="search-container">
+  <h1>Search Articles</h1>
+  
+  <div class="search-bar">
+    <input type="text" id="search-input" placeholder="Search articles..." />
+    <button id="search-button">Search</button>
+  </div>
+  
+  <div id="search-results">
+    <p>Enter a search term above</p>
+  </div>
+</div>
+
+<style>
+  .search-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+  .search-container h1 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    font-weight: bold;
+  }
+
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #search-input {
+    flex: 1;
+    min-width: 200px;
+    max-width: 500px;
+    padding: 10px 14px;
+    font-size: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+  }
+
+  #search-button {
+    padding: 10px 24px;
+    font-size: 15px;
+    background-color: #2d5f3f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  #search-button:hover {
+    background-color: #234a32;
+  }
+
+  #search-results {
+    margin-top: 30px;
+  }
+
+  .results-count {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+
+  .article-card {
+    background-color: #f8f4ef;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+
+  .article-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+
+  .article-card h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #2d5f3f;
+    font-weight: bold;
+  }
+
+  .article-card h2 a {
+    color: #2d5f3f;
+    text-decoration: none;
+  }
+
+  .article-card h2 a:hover {
+    text-decoration: underline;
+  }
+
+  .article-summary {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  .article-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+  }
+
+  .tag {
+    display: inline-block;
+    background-color: #e8e8e8;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: #555;
+    font-weight: 500;
+  }
+
+  .no-results {
+    text-align: center;
+    padding: 40px;
+    font-size: 1rem;
+    color: #666;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .search-container {
+      padding: 30px 15px;
+    }
+
+    .search-container h1 {
+      font-size: 1.75rem;
+    }
+
+    .article-card {
+      padding: 25px;
+    }
+
+    .search-bar {
+      flex-direction: column;
+    }
+
+    #search-input {
+      max-width: 100%;
+    }
+  }
+</style>
+
+<script>
+  let searchIndex = [];
+  
+  // Load the search index
+  fetch('/index.json')
+    .then(response => response.json())
+    .then(data => {
+      searchIndex = data;
+      console.log('Search index loaded:', searchIndex.length, 'articles');
+    })
+    .catch(error => {
+      console.error('Error loading search index:', error);
+      document.getElementById('search-results').innerHTML = 
+        '<p class="no-results">Error loading search index. Please refresh the page.</p>';
+    });
+  
+  // Perform search
+  function performSearch() {
+    const query = document.getElementById('search-input').value.toLowerCase().trim();
+    const resultsDiv = document.getElementById('search-results');
+    
+    if (query === '') {
+      resultsDiv.innerHTML = '<p class="no-results">Please enter a search term</p>';
+      return;
+    }
+    
+    // Search through the index
+    const results = searchIndex.filter(item => {
+      const titleMatch = item.title && item.title.toLowerCase().includes(query);
+      const contentMatch = item.content && item.content.toLowerCase().includes(query);
+      const summaryMatch = item.summary && item.summary.toLowerCase().includes(query);
+      const tagsMatch = item.tags && item.tags.some(tag => 
+        tag.toLowerCase().includes(query)
+      );
+      
+      return titleMatch || contentMatch || summaryMatch || tagsMatch;
+    });
+    
+    // Display results
+    if (results.length === 0) {
+      resultsDiv.innerHTML = '<p class="no-results">No articles found matching your search.</p>';
+    } else {
+      let html = `<p class="results-count">Found ${results.length} article${results.length !== 1 ? 's' : ''}</p>`;
+      
+      results.forEach(result => {
+        // Build tags HTML
+        let tagsHtml = '';
+        if (result.tags && result.tags.length > 0) {
+          tagsHtml = '<div class="article-tags">' + 
+            result.tags.map(tag => `<span class="tag">${tag}</span>`).join('') + 
+            '</div>';
+        }
+        
+        // Use summary if available, otherwise truncate content
+        let displayText = result.summary || '';
+        if (!displayText && result.content) {
+          // If no summary, create one from content (first 200 chars)
+          displayText = result.content.substring(0, 200) + '...';
+        }
+        
+        html += `
+          <div class="article-card">
+            <h2><a href="${result.permalink}">${result.title}</a></h2>
+            ${displayText ? `<div class="article-summary">${displayText}</div>` : ''}
+            ${tagsHtml}
+          </div>
+        `;
+      });
+      
+      resultsDiv.innerHTML = html;
+    }
+  }
+  
+  // Add event listeners
+  document.getElementById('search-button').addEventListener('click', performSearch);
+  document.getElementById('search-input').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+      performSearch();
+    }
+  });
+</script>
+{{ end }}

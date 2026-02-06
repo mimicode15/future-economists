@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="page-header">
+    <h1>{{ .Title }}</h1>
+</div>
+
+<div class="articles-container">
+    {{- range .Pages }}
+    <article class="article-card">
+        <a href="{{ .RelPermalink }}" class="article-link">
+            <div class="article-content">
+                <h2>{{ .Title }}</h2>
+                
+                <!-- DEBUG: Show what we're getting -->
+                <div style="background: yellow; padding: 10px; margin: 10px 0;">
+                    <strong>DEBUG:</strong><br>
+                    Params.description: "{{ .Params.description }}"<br>
+                    Summary: "{{ .Summary }}"<br>
+                </div>
+                
+                <p class="article-summary">{{ .Params.description | default .Summary }}</p>
+            </div>
+        </a>
+    </article>
+    {{- end }}
+</div>
+{{ end }}

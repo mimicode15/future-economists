@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Future Economists</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Future Economists</description>
+    <generator>Hugo -- 0.153.4</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tokenomics: Explained</title>
+      <link>http://localhost:1313/articles/tokenomics-explained/</link>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/tokenomics-explained/</guid>
+      <description>Why so some cryptocurrencies hold long-term while others fade away? A close look at the tokenomics of the project can explain how supply, demand, and incentives shape these outcomes.</description>
+    </item>
+    <item>
+      <title>About Us</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;created-by-high-schoolers-curious-about-economics-and-innovation&#34;&gt;Created by high schoolers curious about economics and innovation&lt;/h2&gt;
+&lt;p&gt;Future Economists is a student-run publication where high schoolers research and write about how emerging technologies are affecting the economy, both on the local and global scales.&lt;/p&gt;
+&lt;h2 id=&#34;here-are-some-topics-that-we-focus-on&#34;&gt;Here Are Some Topics That We Focus On&lt;/h2&gt;
+&lt;h3 id=&#34;ai--automation&#34;&gt;AI &amp;amp; Automation&lt;/h3&gt;
+&lt;p&gt;How artificial intelligence is creating new companies, changing job markets, and reshaping entire industries.&lt;/p&gt;
+&lt;h3 id=&#34;cryptocurrency--blockchain&#34;&gt;Cryptocurrency &amp;amp; Blockchain&lt;/h3&gt;
+&lt;p&gt;The economics of digital money, DeFi, and how blockchain technology challenges traditional finance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Discover Our Mission</title>
+      <link>http://localhost:1313/articles/discover-our-mission/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/discover-our-mission/</guid>
+      <description>Future Economists is a student-created journal dedicated to researching how and why emerging technologies will reshape the global economic landscape.</description>
+    </item>
+    <item>
+      <title>Join the Team</title>
+      <link>http://localhost:1313/join/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/join/</guid>
+      <description>&lt;h2 id=&#34;explore-technology-and-economics-with-us&#34;&gt;Explore Technology and Economics With Us!&lt;/h2&gt;
+&lt;p&gt;We&amp;rsquo;re looking for high school students who want to research emerging technologies and write about their economic impact.&lt;/p&gt;
+&lt;p&gt;No experience is required, just a passion for writing, researching, and learning.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-do&#34;&gt;What We Do&lt;/h2&gt;
+&lt;p&gt;We do research on technologies like AI, blockchain, clean energy, and biotech, and write articles explaining their economic impacts.&lt;/p&gt;
+&lt;p&gt;Things like: &amp;ldquo;How is AI changing the job market?&amp;rdquo;
+&amp;ldquo;How is the Blockchain challenging traditional banking systems?&amp;rdquo;
+&amp;ldquo;What affect will clean energy have on economic efficiency?&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

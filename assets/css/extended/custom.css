@@ -1,0 +1,1080 @@
+/* Import modern, fun font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+/* Color Scheme Variables */
+:root {
+    --primary-green: #2d5a3d;
+    --accent-green: #4a8f5e;
+    --pale-green: #c8e6c9;
+    --light-green-bg: #e8f5e9;
+    --text-black: #000000;
+    --dark-gray: #424242;
+    --white: #ffffff;
+}
+
+/* Apply Poppins font globally */
+body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    color: var(--text-black) !important;
+    background: var(--light-green-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 700;
+}
+
+/* Header/Navigation Styling */
+.nav {
+    background: linear-gradient(135deg, var(--primary-green) 0%, var(--accent-green) 100%);
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 15px rgba(45, 90, 61, 0.2);
+}
+
+.logo {
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+/* Navigation Links */
+.nav a {
+    color: var(--white) !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Main Content Background */
+.main {
+    background: var(--light-green-bg);
+}
+
+#main, .list, .post-single {
+    background: var(--light-green-bg) !important;
+}
+
+/* Buttons */
+.button, button, input[type="submit"] {
+    background: linear-gradient(135deg, var(--accent-green) 0%, var(--primary-green) 100%);
+    color: var(--white);
+    border: none;
+    border-radius: 12px;
+    padding: 12px 28px;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(45, 90, 61, 0.3);
+}
+
+.button:hover, button:hover, input[type="submit"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(45, 90, 61, 0.4);
+}
+
+/* Home Info Section */
+.home-info {
+    background: transparent;
+    border-radius: 24px;
+    padding: 40px;
+    border: none;
+    box-shadow: none;
+}
+
+.home-info h1,
+.home-info h2,
+.home-info p {
+    color: var(--text-black) !important;
+}
+
+/* Remove green bar under welcome section on homepage */
+.first-entry.home-info {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 40px 0 !important;
+}
+
+/* Typing animation for homepage title */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+.home-info h1 {
+    overflow: hidden;
+    border-right: 3px solid var(--accent-green);
+    white-space: nowrap;
+    animation: typing 3s steps(40) 1s 1 normal both,
+               blink 0.75s step-end infinite;
+    display: inline-block;
+}
+
+/* Page Content Boxes */
+.page-content, .post-content {
+    background: var(--white);
+    border-radius: 20px;
+    padding: 32px;
+    border: 2px solid var(--pale-green);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* Links */
+a {
+    color: var(--accent-green);
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: var(--primary-green);
+    text-decoration: underline;
+}
+
+/* Tags */
+.post-tags .tags-list a {
+    background: var(--pale-green);
+    color: var(--primary-green);
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin: 4px;
+}
+
+.post-tags .tags-list a:hover {
+    background: var(--accent-green);
+    color: var(--white);
+    transform: scale(1.1);
+}
+
+/* Make tags dark gray instead of green */
+.post-tags .tags-list a,
+.post-meta,
+article .post-meta,
+.entry-footer {
+    background: transparent !important;
+    color: #424242 !important;
+    border: 1px solid #424242;
+}
+
+.post-tags a {
+    color: #424242 !important;
+    background: var(--light-green-bg) !important;
+    border: 1px solid #424242 !important;
+}
+
+.post-tags a:hover {
+    background: #424242 !important;
+    color: var(--white) !important;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, var(--primary-green) 0%, var(--accent-green) 100%);
+    color: var(--white) !important;
+    border-radius: 20px 20px 0 0;
+    padding: 20px 24px 24px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer * {
+    color: var(--white) !important;
+}
+
+footer a {
+    color: var(--white) !important;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: var(--pale-green) !important;
+}
+
+/* Footer copyright text */
+footer > span {
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+/* Footer Social Icons */
+.footer-social-icons {
+    display: flex !important;
+    justify-content: center;
+    margin-top: 12px;
+    padding: 12px;
+    background: #ffe0b2 !important;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.footer-social-icons a {
+    color: #ff6f00 !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-social-icons a:hover {
+    color: #e65100 !important;
+    transform: scale(1.2) rotate(10deg);
+}
+
+.footer-social-icons svg {
+    stroke: #ff6f00 !important;
+    fill: none !important;
+    width: 26px !important;
+    height: 26px !important;
+    display: block !important;
+}
+
+.footer-social-icons a:hover svg {
+    stroke: #e65100 !important;
+}
+
+/* Hide unwanted elements */
+#theme-toggle, .theme-toggle,
+.share-buttons, .post-share, .page-share,
+[class*="share"], [class*="social-share"],
+.social-icons:not(.footer-social-icons) {
+    display: none !important;
+}
+
+/* Article page styling */
+.post-single .post-title,
+.post-header h1 {
+    color: var(--text-black) !important;
+}
+
+.post-content h2 {
+    color: #ffb74d !important;
+}
+
+.post-content h1, .post-content h3 {
+    color: var(--text-black) !important;
+}
+
+/* Images */
+img {
+    border-radius: 16px;
+}
+
+/* HIDE ARTICLE CARDS ON HOMEPAGE COMPLETELY */
+.home .post-entry,
+.home article.post-entry,
+body.home .post-entry,
+.main .first-entry ~ .post-entry {
+    display: none !important;
+}
+
+/* Hide article covers and empty boxes everywhere */
+.post-entry .entry-cover,
+.post-entry img,
+.entry-cover {
+    display: none !important;
+}
+
+/* Remove any placeholder content boxes */
+.post-entry > div:empty,
+.post-entry .entry-content:empty {
+    display: none !important;
+}
+
+/* CUSTOM ARTICLE LIST FOR /ARTICLES/ PAGE */
+.article-list {
+    display: grid;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.article-card {
+    background: var(--white);
+    border-radius: 20px;
+    border: 2px solid var(--pale-green);
+    transition: all 0.3s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(45, 90, 61, 0.15);
+    border-color: var(--accent-green);
+}
+
+.article-link {
+    display: block;
+    padding: 24px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.article-content h2 {
+    color: #424242 !important;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.article-card:hover .article-content h2 {
+    color: var(--accent-green) !important;
+}
+
+.article-meta {
+    color: #757575;
+    font-size: 0.9rem;
+    margin-bottom: 16px;
+}
+
+.article-meta .separator {
+    margin: 0 8px;
+}
+
+.article-summary {
+    color: #424242;
+    line-height: 1.6;
+}
+
+/* Hide images in article cards */
+.article-card img {
+    display: none !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .home-info, .page-content {
+        padding: 24px;
+    }
+}
+
+/* HOMEPAGE ARTICLE CARDS - Clean version with no boxes */
+.articles-container {
+    display: grid;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.articles-container .article-card {
+    background: var(--white);
+    border-radius: 20px;
+    border: 2px solid var(--pale-green);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.articles-container .article-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(45, 90, 61, 0.15);
+    border-color: var(--accent-green);
+}
+
+.articles-container .article-link {
+    display: block;
+    padding: 24px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.articles-container .article-content h2 {
+    color: #424242 !important;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.articles-container .article-card:hover .article-content h2 {
+    color: var(--accent-green) !important;
+}
+
+.articles-container .article-summary {
+    color: #424242;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Make absolutely sure no images or empty boxes show */
+.articles-container img,
+.articles-container .entry-cover,
+.articles-container .post-cover {
+    display: none !important;
+}
+
+/* Force remove boxes on Articles page specifically */
+.list .post-entry .entry-cover,
+.list .post-entry img,
+.list .entry-cover,
+.list img {
+    display: none !important;
+}
+
+/* Remove empty content boxes on list pages */
+.list .post-entry > div:empty,
+.list .entry-content:empty {
+    display: none !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Hide the weird placeholder boxes */
+.list .post-entry .entry-content > *:empty {
+    display: none !important;
+}
+
+/* Clean up the article cards on list page */
+.list .article-card,
+.list .post-entry {
+    background: var(--white);
+    border-radius: 20px;
+    padding: 24px;
+    margin-bottom: 24px;
+    border: 2px solid var(--pale-green);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.list .article-card:hover,
+.list .post-entry:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(45, 90, 61, 0.15);
+    border-color: var(--accent-green);
+}
+
+/* Make article titles gray on list page */
+.list .article-content h2,
+.list .post-entry h2,
+.list .entry-header h2 {
+    color: #424242 !important;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.list .article-card:hover h2,
+.list .post-entry:hover h2 {
+    color: var(--accent-green) !important;
+}
+
+/* Hide any div that contains loading dots or placeholders */
+.list .post-entry div[style*="loading"],
+.list .post-entry div[class*="placeholder"] {
+    display: none !important;
+}
+
+
+/* Remove only truly empty content boxes */
+.post-entry .entry-content:empty,
+.article-card .entry-content:empty {
+    display: none !important;
+}
+
+/* FORCE summary text to always show */
+.article-summary,
+.articles-container .article-summary,
+.articles-container .article-content p,
+.list .articles-container p,
+.article-content .article-summary {
+    display: block !important;
+    color: #424242 !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Make sure article-content div shows */
+.article-content {
+    display: block !important;
+}
+
+/* Override any hiding rules for paragraphs in article cards */
+.articles-container p,
+.article-card p,
+.list .article-card p {
+    display: block !important;
+}
+
+/* Hide only empty divs in entry-content */
+.entry-content > div:empty,
+.entry-content > span:empty {
+    display: none !important;
+}
+
+/* Hide any divs with just dots or loading indicators */
+.post-entry > div:not(.entry-header):not(.article-content),
+.article-card > div:not(.article-content) {
+    display: none !important;
+}
+
+/* Target that specific box structure */
+.post-entry .entry-footer,
+.post-entry > div[style],
+.list .post-entry > div[class*="entry"]:not(.entry-header) {
+    display: none !important;
+}
+
+/* Remove skeleton loaders and placeholders */
+[class*="skeleton"],
+[class*="placeholder"],
+[class*="loading"] {
+    display: none !important;
+}
+
+/* Force logo to show on all pages */
+#logo img,
+.logo img,
+header .logo img {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+/* Position logo next to Future Economists text */
+.logo {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    display: inline-block !important;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.logo-text,
+#logo-text {
+    display: inline-block !important;
+    vertical-align: middle;
+}
+
+/* Make header items align horizontally */
+header .top-link,
+header #logo {
+    display: inline-flex;
+    align-items: center;
+}
+/* ===== FINAL LOGO FIX ===== */
+header .logo,
+header .logo a {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    text-decoration: none;
+}
+
+header .logo img {
+    display: inline-block !important;
+    margin-right: 12px !important;
+    margin-bottom: 0 !important;
+    vertical-align: middle !important;
+}
+
+header .logo span {
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+
+/* ===== HERO IMAGE ===== */
+.hero-image {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 24px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.hero-image:hover img {
+    transform: scale(1.05);
+}
+
+/* ===== ARTICLE CARD IMAGES ===== */
+.article-image {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 16px;
+}
+
+.article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease;
+    display: block !important;
+}
+
+.article-card:hover .article-image img {
+    transform: scale(1.08);
+    filter: brightness(1.1);
+}
+
+/* ===== FLOATING ASYMMETRIC IMAGES SECTION ===== */
+.floating-images-section {
+    margin: 80px 0;
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--primary-green);
+    margin-bottom: 60px;
+    font-weight: 800;
+}
+
+.floating-grid {
+    position: relative;
+    height: 800px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.float-image {
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: all 0.4s ease;
+    cursor: pointer;
+    background: white;
+    padding: 15px;
+}
+
+.float-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    display: block !important;
+}
+
+.float-image:hover {
+    transform: scale(1.05) rotate(2deg) !important;
+    box-shadow: 0 15px 40px rgba(45, 90, 61, 0.3);
+    z-index: 10 !important;
+}
+
+.float-image:hover img {
+    transform: scale(1.1);
+}
+
+.image-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(45, 90, 61, 0.95), transparent);
+    color: white;
+    padding: 20px 15px 15px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.float-image:hover .image-label {
+    opacity: 1;
+}
+
+/* Asymmetric positioning */
+.float-1 {
+    width: 280px;
+    height: 350px;
+    top: 0;
+    left: 5%;
+    transform: rotate(-5deg);
+}
+
+.float-2 {
+    width: 320px;
+    height: 240px;
+    top: 80px;
+    right: 10%;
+    transform: rotate(3deg);
+}
+
+.float-3 {
+    width: 250px;
+    height: 300px;
+    top: 200px;
+    left: 35%;
+    transform: rotate(-3deg);
+}
+
+.float-4 {
+    width: 300px;
+    height: 220px;
+    top: 380px;
+    left: 8%;
+    transform: rotate(4deg);
+}
+
+.float-5 {
+    width: 270px;
+    height: 320px;
+    top: 360px;
+    right: 15%;
+    transform: rotate(-4deg);
+}
+
+.float-6 {
+    width: 240px;
+    height: 280px;
+    top: 550px;
+    left: 40%;
+    transform: rotate(2deg);
+}
+
+/* Floating animation on scroll */
+@keyframes floatUp {
+    0%, 100% {
+        transform: translateY(0) rotate(var(--rotation));
+    }
+    50% {
+        transform: translateY(-20px) rotate(var(--rotation));
+    }
+}
+
+.float-image {
+    animation: floatUp 6s ease-in-out infinite;
+}
+
+.float-1 { --rotation: -5deg; animation-delay: 0s; }
+.float-2 { --rotation: 3deg; animation-delay: 0.5s; }
+.float-3 { --rotation: -3deg; animation-delay: 1s; }
+.float-4 { --rotation: 4deg; animation-delay: 1.5s; }
+.float-5 { --rotation: -4deg; animation-delay: 0.8s; }
+.float-6 { --rotation: 2deg; animation-delay: 1.2s; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .floating-grid {
+        height: 1200px;
+    }
+    
+    .float-image {
+        width: 200px !important;
+        height: 240px !important;
+    }
+    
+    .float-1 { top: 0; left: 10%; }
+    .float-2 { top: 200px; right: 10%; }
+    .float-3 { top: 400px; left: 15%; }
+    .float-4 { top: 600px; right: 15%; }
+    .float-5 { top: 800px; left: 20%; }
+    .float-6 { top: 1000px; right: 10%; }
+}
+
+/* Hero image appears AFTER text */
+.home-info .hero-image {
+    margin-top: 40px;
+}
+
+/* Make sure hero image shows */
+.hero-image {
+    display: block !important;
+    visibility: visible !important;
+}
+
+.hero-image img {
+    display: block !important;
+}
+
+/* ===== SEARCH PAGE STYLING ===== */
+.search-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.search-page h1 {
+    text-align: center;
+    color: var(--primary-green);
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.search-container {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+#searchInput {
+    flex: 1;
+    padding: 16px 20px;
+    font-size: 1.1rem;
+    border: 2px solid var(--pale-green);
+    border-radius: 12px;
+    background: var(--white);
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+#searchInput:focus {
+    border-color: var(--accent-green);
+    box-shadow: 0 0 0 4px rgba(74, 143, 94, 0.1);
+    outline: none;
+}
+
+#searchButton {
+    padding: 16px 32px;
+    background: linear-gradient(135deg, var(--accent-green) 0%, var(--primary-green) 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+#searchButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(45, 90, 61, 0.4);
+}
+
+.search-hint,
+.no-results {
+    text-align: center;
+    color: #757575;
+    font-size: 1.1rem;
+    padding: 40px 20px;
+}
+
+.results-count {
+    color: var(--primary-green);
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.search-results-list {
+    display: grid;
+    gap: 20px;
+}
+
+.search-result-card {
+    background: var(--white);
+    border-radius: 16px;
+    border: 2px solid var(--pale-green);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.search-result-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(45, 90, 61, 0.15);
+    border-color: var(--accent-green);
+}
+
+.result-link {
+    display: block;
+    padding: 24px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.search-result-card h3 {
+    color: var(--primary-green);
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    transition: color 0.3s ease;
+}
+
+.search-result-card:hover h3 {
+    color: var(--accent-green);
+}
+
+.result-summary {
+    color: #424242;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.result-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.result-tags .tag {
+    background: var(--pale-green);
+    color: var(--primary-green);
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .search-container {
+        flex-direction: column;
+    }
+    
+    #searchButton {
+        width: 100%;
+    }
+}
+
+/* Fix search results overlay issue */
+#searchResults {
+    position: relative;
+    z-index: 1;
+    background: var(--light-green-bg);
+    padding-top: 20px;
+    min-height: 200px;
+}
+
+/* Make sure search page content doesn't overlap */
+.search-page {
+    position: relative;
+    z-index: 10;
+}
+
+/* Clear any absolute positioning on results */
+.search-results-list {
+    position: relative;
+    display: grid;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.search-result-card {
+    position: relative;
+}
+
+/* Hide any content behind search when active */
+body.searching .main > *:not(.search-page) {
+    display: none;
+}
+
+/* Force search result cards to be visible */
+.search-result-card {
+    background: var(--white) !important;
+    border-radius: 16px;
+    border: 2px solid var(--pale-green);
+    transition: all 0.3s ease;
+    overflow: visible !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    min-height: 100px;
+}
+
+.result-link {
+    display: block !important;
+    padding: 24px;
+    text-decoration: none;
+    color: inherit;
+    opacity: 1 !important;
+}
+
+.search-result-card h3 {
+    color: var(--primary-green) !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 12px;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.result-summary {
+    color: #424242 !important;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.result-tags {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+    visibility: visible !important;
+}
+
+.result-tags .tag {
+    background: var(--pale-green);
+    color: var(--primary-green);
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: inline-block !important;
+}
+
+/* Make sure results container is visible */
+.search-results-list {
+    display: grid !important;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Hide article navigation and footer elements */
+.paginav {
+  display: none !important;
+}
+
+.post-footer {
+  display: none !important;
+}
+
+/* Also hide share buttons if present */
+.share-buttons {
+  display: none !important;
+}
+
+/* Hide post tags if you don't want them */
+.post-tags {
+  display: none !important;
+}
+
+/* Fix home page title on mobile */
+@media (max-width: 768px) {
+  .home-info .entry-header h1 {
+    font-size: 1.75rem !important;
+    line-height: 1.3 !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+    max-width: 100% !important;
+  }
+}

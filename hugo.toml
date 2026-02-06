@@ -1,0 +1,64 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'Future Economists'
+theme = 'PaperMod'
+
+[params]
+  description = "Exploring economics for tomorrow's leaders"
+  author = "Joy Ashby"
+  showShareButtons = false
+  showReadingTime = true
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
+  defaultTheme = "light"
+  disableThemeToggle = true
+  mainSections = ["articles"]
+  
+[params.homeInfoParams]
+  Title = "Welcome to Future Economists"
+  Content = "Exploring economic trends, insights, and opportunities for the next generation of thinkers."
+  imageUrl = "/images/hero-banner.png"
+  imageTitle = "Future Economists Hero"
+
+[params.label]
+  text = "Future Economists"
+  icon = "/images/logo.png"
+  iconHeight = 35
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Articles"
+  url = "/articles/"
+  weight = 2
+
+[[menu.main]]
+  name = "About Us"
+  url = "/about/"
+  weight = 3
+
+[[menu.main]]
+  name = "Join the Team"
+  url = "/join/"
+  weight = 4
+
+[[menu.main]]
+name = "Search"
+url = "/search/"
+weight = 5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

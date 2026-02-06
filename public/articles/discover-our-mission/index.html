@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Discover Our Mission | Future Economists</title>
+<meta name="keywords" content="introduction, economics, community">
+<meta name="description" content="Future Economists is a student-created journal dedicated to researching how and why emerging technologies will reshape the global economic landscape.">
+<meta name="author" content="Joy Ashby">
+<link rel="canonical" href="http://localhost:1313/articles/discover-our-mission/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5ec92515ece3500f5f5d73d25595b6d31d6da60efe2c2aeda23cb913dc13cd13.css" integrity="sha256-XsklFezjUA9fXXPSVZW20x1tpg7&#43;LCrtojy5E9wTzRM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/articles/discover-our-mission/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Future Economists (Alt + H)">
+                <img src="http://localhost:1313/images/logo.png" alt="" aria-label="logo"
+                    height="35"
+                    style="display: inline-block; margin-right: 10px; vertical-align: middle;">
+                <span style="display: inline-block; vertical-align: middle;">Future Economists</span>
+            </a>
+        </div>
+
+        
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/articles/" title="Articles">
+                    <span>Articles</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About Us">
+                    <span>About Us</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/join/" title="Join the Team">
+                    <span>Join the Team</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<div class="menu-overlay" id="menu-overlay"></div>
+
+<style>
+ 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    background: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 6px;
+    z-index: 1001;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--primary-green);
+    margin: 3px 0;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+ 
+.hamburger.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+ 
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.menu-overlay.active {
+    display: block;
+}
+
+ 
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .nav {
+        padding: 0 20px;
+    }
+
+     
+    .hamburger {
+        display: flex;
+    }
+
+     
+    #menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 75%;
+        max-width: 280px;
+        background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+        flex-direction: column;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        gap: 0;
+        transition: right 0.3s ease;
+        box-shadow: -2px 0 15px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    #menu.active {
+        right: 0;
+    }
+
+    #menu li {
+        width: 100%;
+        margin: 0;
+    }
+
+    #menu li a {
+        display: block;
+        width: 100%;
+        padding: 15px 25px;
+        font-size: 1.1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        color: white;
+    }
+
+    #menu li:last-child a {
+        border-bottom: none;
+    }
+
+    #menu li a span {
+        color: white;
+    }
+
+    #menu li a span.active {
+        font-weight: bold;
+    }
+
+     
+    .logo a span {
+        font-size: 1.1rem;
+    }
+
+    .logo img {
+        height: 25px !important;
+    }
+}
+
+ 
+@media (max-width: 1024px) and (min-width: 769px) {
+    .nav {
+        padding: 0 30px;
+    }
+}
+</style>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('menu');
+    const overlay = document.getElementById('menu-overlay');
+
+    if (!hamburger || !menu || !overlay) return;
+
+    function toggleMenu() {
+        hamburger.classList.toggle('active');
+        menu.classList.toggle('active');
+        overlay.classList.toggle('active');
+        
+        
+        if (menu.classList.contains('active')) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+    }
+
+    
+    hamburger.addEventListener('click', toggleMenu);
+    
+    
+    overlay.addEventListener('click', toggleMenu);
+
+    
+    const menuLinks = menu.querySelectorAll('a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                toggleMenu();
+            }
+        });
+    });
+
+    
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768 && menu.classList.contains('active')) {
+            toggleMenu();
+        }
+    });
+});
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/articles/">Articles</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Discover Our Mission
+    </h1>
+    <div class="post-description">
+      Future Economists is a student-created journal dedicated to researching how and why emerging technologies will reshape the global economic landscape.
+    </div>
+    <div class="post-meta"><span title='2025-12-28 00:00:00 +0000 UTC'>December 28, 2025</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>Joy Ashby</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="welcome">Welcome!<a hidden class="anchor" aria-hidden="true" href="#welcome">#</a></h2>
+<p>Welcome to Future Economists: Where Economics and Innovation Intersect</p>
+<h2 id="researching-the-futures-building-blocks">Researching The Future&rsquo;s Building Blocks<a hidden class="anchor" aria-hidden="true" href="#researching-the-futures-building-blocks">#</a></h2>
+<p>Welcome to <strong>Future Economists</strong>: where we explore the most exciting intersection in the modern world: emerging technologies and their economic impacts.</p>
+<p>Right now, it feels like we are experiencing a transformative era in the world&rsquo;s history.  AI is automating jobs and creating new industries, blockchain is reimagining finance, biotechnology is extending lifespans, clean energy is rebuilding infrastructure, and even space is becoming commercial.</p>
+<p><strong>So, how will all of this impact the global economy?</strong></p>
+<h2 id="why-tech-economics-matters">Why Tech Economics Matters<a hidden class="anchor" aria-hidden="true" href="#why-tech-economics-matters">#</a></h2>
+<p>Traditional economics studies factories, trade, and monetary policy.  And alongside all of that, today&rsquo;s economies are driven by:</p>
+<ul>
+<li><strong>Artificial Intelligence:</strong> creating $15+ trillion in economic value by 2030</li>
+<li><strong>Cryptocurrency:</strong> building a $2+ trillion parallel financial system</li>
+<li><strong>Clean Energy:</strong> requiring $150+ trillion in infrastructure investment</li>
+<li><strong>Biotechnology:</strong> enabling a $4+ trillion personalized medicine market</li>
+</ul>
+<h2 id="our-values">Our Values<a hidden class="anchor" aria-hidden="true" href="#our-values">#</a></h2>
+<h3 id="technology-first-approach">Technology-First Approach<a hidden class="anchor" aria-hidden="true" href="#technology-first-approach">#</a></h3>
+<p>We analyze how emerging tech creates new markets, disrupts old ones, and redistributes wealth.</p>
+<h3 id="data-driven-analysis">Data-Driven Analysis<a hidden class="anchor" aria-hidden="true" href="#data-driven-analysis">#</a></h3>
+<p>We use real market data, industry reports, and economic indicators to form evidence-based insights and opinions.</p>
+<h3 id="student-perspective">Student Perspective<a hidden class="anchor" aria-hidden="true" href="#student-perspective">#</a></h3>
+<p>Our articles are written by the generation that will build and lead these tech-driven economies. We know that we need understand what matters because it&rsquo;s our future.</p>
+<h2 id="what-youll-find-here">What You&rsquo;ll Find Here<a hidden class="anchor" aria-hidden="true" href="#what-youll-find-here">#</a></h2>
+<h3 id="ai--automation">AI &amp; Automation<a hidden class="anchor" aria-hidden="true" href="#ai--automation">#</a></h3>
+<ul>
+<li>How AI is transforming labor markets</li>
+<li>Which jobs are being created vs. eliminated</li>
+<li>The economics of machine learning and data</li>
+<li>AI business models and market opportunities</li>
+</ul>
+<h3 id="blockchain--digital-finance">Blockchain &amp; Digital Finance<a hidden class="anchor" aria-hidden="true" href="#blockchain--digital-finance">#</a></h3>
+<ul>
+<li>Cryptocurrency markets and valuations</li>
+<li>DeFi&rsquo;s challenge to traditional banking</li>
+<li>Digital ownership economics</li>
+<li>Web3 and the tokenization of everything</li>
+</ul>
+<h3 id="the-economics-of-clean-energy">The Economics of Clean Energy<a hidden class="anchor" aria-hidden="true" href="#the-economics-of-clean-energy">#</a></h3>
+<ul>
+<li>The trillion-dollar energy transition</li>
+<li>Carbon markets and climate economics</li>
+<li>EV adoption and infrastructure economics</li>
+<li>Green technology investment opportunities</li>
+</ul>
+<h3 id="biotech--health-economics">Biotech &amp; Health Economics<a hidden class="anchor" aria-hidden="true" href="#biotech--health-economics">#</a></h3>
+<ul>
+<li>Personalized medicine and genomics markets</li>
+<li>The economics of longevity</li>
+<li>Healthcare technology disruption</li>
+<li>Biotech investment landscapes</li>
+</ul>
+<h3 id="future-technologies">Future Technologies<a hidden class="anchor" aria-hidden="true" href="#future-technologies">#</a></h3>
+<ul>
+<li>Quantum computing&rsquo;s economic potential</li>
+<li>AR/VR and metaverse economies</li>
+<li>Brain-computer interfaces</li>
+</ul>
+<h2 id="who-this-is-for">Who This Is For<a hidden class="anchor" aria-hidden="true" href="#who-this-is-for">#</a></h2>
+<p><strong>This publication was created to amplify students with a knowledge and deeper understanding of what industries will shape our future, and how we can prepare now!</strong></p>
+<h2 id="our-mission">Our Mission<a hidden class="anchor" aria-hidden="true" href="#our-mission">#</a></h2>
+<p><strong>To empower the next generation with tech-economic literacy—understanding not just how technologies work, but how they create value, disrupt markets, and reshape economies.</strong></p>
+<h2 id="whats-coming">What&rsquo;s Coming<a hidden class="anchor" aria-hidden="true" href="#whats-coming">#</a></h2>
+<p>We&rsquo;re just launching, but here&rsquo;s what to expect:</p>
+<h3 id="weekly-content">Weekly Content<a hidden class="anchor" aria-hidden="true" href="#weekly-content">#</a></h3>
+<ul>
+<li><strong>Tech Economics Deep Dives</strong> - Analyzing one technology&rsquo;s economic impact</li>
+<li><strong>Market Analysis</strong> - What happened this week in tech and markets</li>
+<li><strong>Career Spotlights</strong> - Profiles of people building at tech-economics intersection</li>
+<li><strong>Data Visualizations</strong> - Making complex trends understandable</li>
+<li><strong>Book &amp; Report Reviews</strong> - Curating the best insights</li>
+</ul>
+<h3 id="how-to-get-involved">How to Get Involved<a hidden class="anchor" aria-hidden="true" href="#how-to-get-involved">#</a></h3>
+<p><strong>Read &amp; Learn:</strong>
+Bookmark us and check back every week for new insights!</p>
+<p>** Engage &amp; Discuss:**
+Comment on articles and share your perspective!</p>
+<p><strong>Contribute:</strong>
+Have expertise, insights, or want to get involved? <a href="/join/">Join our team</a> as a writer, researcher, or analyst.</p>
+<p><strong>Stay Connected:</strong>
+Follow us on Instagram for updates!</p>
+<p><strong>Share:</strong>
+Know someone who might be interested? Send them our way.</p>
+<h2 id="get-involved">Get Involved<a hidden class="anchor" aria-hidden="true" href="#get-involved">#</a></h2>
+<ol>
+<li><strong>Explore our <a href="/articles/">Articles</a></strong> - Dive into specific technologies</li>
+<li><strong>Learn <a href="/about/">About Us</a></strong> - Understand our mission and approach</li>
+<li><strong><a href="/join/">Join the Team</a></strong> - Contribute your own insights</li>
+<li><strong>Follow us</strong> on Instagram for weekly content!</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/introduction/">Introduction</a></li>
+      <li><a href="http://localhost:1313/tags/economics/">Economics</a></li>
+      <li><a href="http://localhost:1313/tags/community/">Community</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/articles/tokenomics-explained/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Tokenomics: Explained</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    <footer class="footer">
+    <div style="margin-bottom: 12px;">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Future Economists</a></span>
+        <span> · A student-led project</span>
+    </div>
+    
+    <div class="footer-social-icons">
+        <a href="https://instagram.com/futureeconomists" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+        </a>
+    </div>
+</footer></body>
+
+</html>

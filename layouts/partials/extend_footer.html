@@ -1,0 +1,40 @@
+<script>
+    // Parallax scroll effect for floating images
+    window.addEventListener('scroll', function() {
+        const floatingImages = document.querySelectorAll('.float-image');
+        const scrolled = window.pageYOffset;
+        
+        floatingImages.forEach(img => {
+            const speed = img.dataset.scrollSpeed || 1;
+            const yPos = -(scrolled * speed / 10);
+            img.style.transform = `translateY(${yPos}px) rotate(${img.style.getPropertyValue('--rotation') || '0deg'})`;
+        });
+    });
+    
+    // Existing article link fix code...
+    document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+            const cards = document.querySelectorAll('.post-entry, .article-card');
+            
+            cards.forEach(function(card) {
+                const titleLink = card.querySelector('h2 a, .entry-header a, .post-title a, .article-link');
+                
+                if (titleLink) {
+                    const url = titleLink.href;
+                    card.style.cursor = 'pointer';
+                    
+                    card.addEventListener('click', function(event) {
+                        if (event.target.tagName !== 'A') {
+                            window.location = url;
+                        }
+                    });
+                    
+                    titleLink.addEventListener('click', function(event) {
+                        event.preventDefault();
+                        window.location = url;
+                    });
+                }
+            });
+        }, 100);
+    });
+    </script>

@@ -1,0 +1,73 @@
+{{ define "main" }}
+
+{{- if .Site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Site.Params.homeInfoParams.Title }}</h1>
+    </header>
+    <div class="entry-content">
+        <p>{{ .Site.Params.homeInfoParams.Content }}</p>
+    </div>
+    {{- if .Site.Params.homeInfoParams.imageUrl }}
+    <div class="hero-image">
+        <img src="{{ .Site.Params.homeInfoParams.imageUrl }}" alt="{{ .Site.Params.homeInfoParams.imageTitle | default "Hero" }}">
+    </div>
+    {{- end }}
+</article>
+{{- end }}
+
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hidden" "!=" true }}
+
+{{- if $pages }}
+<div class="articles-container">
+    {{- range $pages | first 10 }}
+    <article class="article-card">
+        <a href="{{ .RelPermalink }}" class="article-link">
+            {{- if .Params.cover }}
+            <div class="article-image">
+                <img src="{{ .Params.cover.image }}" alt="{{ .Title }}">
+            </div>
+            {{- end }}
+            <div class="article-content">
+                <h2>{{ .Title }}</h2>
+                <p class="article-summary">{{ .Params.description | default .Summary }}</p>
+            </div>
+        </a>
+    </article>
+    {{- end }}
+</div>
+{{- end }}
+
+<!-- Floating Asymmetric Images Section -->
+<section class="floating-images-section">
+    <h2 class="section-title">Studying Economics and Innovation</h2>
+    <div class="floating-grid">
+        <div class="float-image float-1" data-scroll-speed="2">
+            <img src="/images/undraw_artificial-intelligence_43qa.png" alt="AI Technology">
+            <span class="image-label">AI & Automation</span>
+        </div>
+        <div class="float-image float-2" data-scroll-speed="3">
+            <img src="/images/undraw_crypto-portfolio_mf2i (1).png" alt="Blockchain & Crypto">
+            <span class="image-label">Blockchain</span>
+        </div>
+        <div class="float-image float-3" data-scroll-speed="1.5">
+            <img src="/images/pexels-pixabay-355952.jpg" alt="Clean Energy">
+            <span class="image-label">Clean Energy</span>
+        </div>
+        <div class="float-image float-4" data-scroll-speed="2.5">
+            <img src="/images/undraw_financial-data_lbci.png" alt="Data Analytics">
+            <span class="image-label">Financial Data</span>
+        </div>
+        <div class="float-image float-5" data-scroll-speed="1.8">
+            <img src="/images/undraw_growth-chart_h2w8.png" alt="Economic Growth">
+            <span class="image-label">Growth & Markets</span>
+        </div>
+        <div class="float-image float-6" data-scroll-speed="2.2">
+            <img src="/images/pexels-goumbik-669610.jpg" alt="Finance & Investment">
+            <span class="image-label">Investment</span>
+        </div>
+    </div>
+</section>
+
+{{ end }}
