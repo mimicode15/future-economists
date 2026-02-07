@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = "https://futureeconomists.com/"
 languageCode = 'en-us'
 title = 'Future Economists'
 theme = 'PaperMod'
