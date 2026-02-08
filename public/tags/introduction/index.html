@@ -10,7 +10,7 @@
 <meta name="description" content="Exploring economics for tomorrow&#39;s leaders">
 <meta name="author" content="Joy Ashby">
 <link rel="canonical" href="http://localhost:1313/tags/introduction/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.1aefbc3c0dc0d00b325fb49868d5048af2f630ec9e3e994514af53fc4d1aa2ad.css" integrity="sha256-Gu&#43;8PA3A0AsyX7SYaNUEivL2MOyePplFFK9T/E0aoq0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d62a7922c11a2e87dcc8af425436f49f8e10210f23fc37ba3ec2a9041e477976.css" integrity="sha256-1ip5IsEaLofcyK9CVDb0n44QIQ8j/De6PsKpBB5HeXY=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -41,6 +41,13 @@
                 <span style="display: inline-block; vertical-align: middle;">Future Economists</span>
             </a>
         </div>
+
+        
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <ul id="menu">
             <li>
                 <a href="http://localhost:1313/" title="Home">
@@ -69,7 +76,190 @@
             </li>
         </ul>
     </nav>
-</header><main class="main">
+</header>
+
+
+<div class="menu-overlay" id="menu-overlay"></div>
+
+<style>
+ 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    background: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 6px;
+    z-index: 1001;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--primary-green);
+    margin: 3px 0;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+ 
+.hamburger.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+ 
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.menu-overlay.active {
+    display: block;
+}
+
+ 
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .nav {
+        padding: 0 20px;
+    }
+
+     
+    .hamburger {
+        display: flex;
+    }
+
+     
+    #menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 75%;
+        max-width: 280px;
+        background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+        flex-direction: column;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        gap: 0;
+        transition: right 0.3s ease;
+        box-shadow: -2px 0 15px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    #menu.active {
+        right: 0;
+    }
+
+    #menu li {
+        width: 100%;
+        margin: 0;
+    }
+
+    #menu li a {
+        display: block;
+        width: 100%;
+        padding: 15px 25px;
+        font-size: 1.1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        color: white;
+    }
+
+    #menu li:last-child a {
+        border-bottom: none;
+    }
+
+    #menu li a span {
+        color: white;
+    }
+
+    #menu li a span.active {
+        font-weight: bold;
+    }
+
+     
+    .logo a span {
+        font-size: 1.1rem;
+    }
+
+    .logo img {
+        height: 25px !important;
+    }
+}
+
+ 
+@media (max-width: 1024px) and (min-width: 769px) {
+    .nav {
+        padding: 0 30px;
+    }
+}
+</style>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('menu');
+    const overlay = document.getElementById('menu-overlay');
+
+    if (!hamburger || !menu || !overlay) return;
+
+    function toggleMenu() {
+        hamburger.classList.toggle('active');
+        menu.classList.toggle('active');
+        overlay.classList.toggle('active');
+        
+        
+        if (menu.classList.contains('active')) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+    }
+
+    
+    hamburger.addEventListener('click', toggleMenu);
+    
+    
+    overlay.addEventListener('click', toggleMenu);
+
+    
+    const menuLinks = menu.querySelectorAll('a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                toggleMenu();
+            }
+        });
+    });
+
+    
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768 && menu.classList.contains('active')) {
+            toggleMenu();
+        }
+    });
+});
+</script><main class="main">
 <div class="page-header">
     <h1>Introduction</h1>
 </div>
@@ -93,7 +283,7 @@
     </div>
     
     <div class="footer-social-icons">
-        <a href="https://instagram.com/futureeconomists" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <a href="https://instagram.com/HANDLE-COMING-SOON" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
