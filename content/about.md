@@ -90,4 +90,4 @@ Start with topics that interest you!
 
 **Questions or topic suggestions?** Contact us on social media!
 
-📸 Instagram: [@futureeconomists](https://instagram.com/DOES_NOT_EXIST_YET)  
+📸 Instagram: [@futureeconomists](https://instagram.com/DOES_NOT_EXIST_YET_FE)  

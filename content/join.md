@@ -197,4 +197,4 @@ Then answer the questions above. We're excited to hear from you!
 
 ---
 
-**Have more questions?** DM us on Instagram [@futureeconomists](https://instagram.com/DOES_NOT_EXIST_YET)
+**Have more questions?** DM us on Instagram [@futureeconomists](https://instagram.com/DOES_NOT_EXIST_YET_FE)
