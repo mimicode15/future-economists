@@ -114,6 +114,7 @@ h1, h2, h3, h4, h5, h6 {
     50% { border-color: transparent; }
 }
 
+/* Desktop typing animation */
 .home-info h1 {
     overflow: hidden;
     border-right: 3px solid var(--accent-green);
@@ -121,6 +122,39 @@ h1, h2, h3, h4, h5, h6 {
     animation: typing 3s steps(40) 1s 1 normal both,
                blink 0.75s step-end infinite;
     display: inline-block;
+    font-size: 2.5rem;
+    max-width: 100%;
+}
+
+/* Mobile - SMALLER font so it fits, animation still works */
+@media (max-width: 768px) {
+    .home-info h1 {
+        font-size: 1.4rem !important;  /* Much smaller to fit */
+        border-right: 2px solid var(--accent-green);
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    
+    /* Center the animation container */
+    .home-info .entry-header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+/* Very small phones - even smaller */
+@media (max-width: 480px) {
+    .home-info h1 {
+        font-size: 1.2rem !important;
+    }
+}
+
+/* Tablets */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .home-info h1 {
+        font-size: 2rem !important;
+    }
 }
 
 /* Page Content Boxes */
@@ -1067,12 +1101,3 @@ body.searching .main > *:not(.search-page) {
   display: none !important;
 }
 
-/* Fix home page title on mobile */
-/* In your CSS file */
-@media (max-width: 768px) {
-  .typing-text {  /* Replace with actual class name */
-    font-size: 1.5rem !important;  /* Fixed smaller size on mobile */
-    max-width: 100% !important;
-    width: 100% !important;
-  }
-}
