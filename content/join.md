@@ -187,6 +187,8 @@ We prioritize regular team members, but we occasionally accept guest articles, s
 
 ## Want to Join?
 
+**Fill out this form:** [Join Future Economists](https://forms.gle/https://docs.google.com/forms/d/e/1FAIpQLSeDjr44DyAVwIR9Uwxa_j35TuNvL_R92MYcg7f9ZtOPcP7weQ/viewform?usp=publish-editor)
+
 **📧 Email: future.economists.hs@gmail.com**
 
 **Subject line:** "Want to join Future Economists - [Your Name]"
