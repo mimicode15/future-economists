@@ -70,7 +70,7 @@ Create article headers, infographics, and social media graphics that help visual
 **You'd fit if:** You know Canva, enjoy graphic design, and want portfolio pieces
 
 ### Social Media
-Post articles on Instagram/YouTube/TikTok, create short-form content, engage with followers.
+Post content on Instagram and TikTok, create short-form articles, engage with followers.
 
 **Time commitment:** 3-5 hours/week
 
