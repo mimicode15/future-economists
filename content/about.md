@@ -32,7 +32,7 @@ Space economy, quantum computing, and other exciting stuff.
 
 **We're learning together.** By researching, analyzing, and writing about topics that fascinate us, we're building expertise and growing our knowledge together.
 
-**We focus on what matters to us.** Career paths, college majors, and making sense of tech hype.
+**We focus on what matters to us.** Career paths, college majors, and making sense of new tech hype.
 
 ## Our Mission
 
@@ -67,13 +67,13 @@ The next 10 years will see more technological change than the last 50. So, under
 
 **Make better decisions** about college majors and career paths
 
-**Understand the world** beyond surface-level hype
+**Understand the world** beyond the surface-level.
 
 **Spot opportunities** in industries and skills before they become obvious
 
 **Speak intelligently** about economics and technology in college interviews and beyond
 
-**Think critically** about where innovation creates real value versus where it's just hype
+**Think critically** about where innovation creates real value to people or not.
 
 
 ## Join Us
