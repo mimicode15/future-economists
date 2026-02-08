@@ -101,11 +101,11 @@ We care more about curiosity and willingness to learn and contribute than creden
 
 **You'll get feedback.** Your first drafts will need work. We all improve through the editing process!
 
-**But it's worth it.** You'll learn more than you would from most classes, build real skills, and create work that you can be proud of!
+**But it's worth it.** You'll learn a lot about how technology effects the global and local economies, build real skills, and create work that you can be proud of!
 
 ## How to Apply
 
-**Email: futureeconomists@gmail.com**
+**Email: future.economists.hs@gmail.com**
 
 **Include:**
 
