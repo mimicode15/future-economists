@@ -99,7 +99,7 @@ We're just launching, but here's what to expect:
 **Read & Learn:**
 Bookmark us and check back every week for new insights!
 
-** Engage & Discuss:**
+**Engage & Discuss:**
 Comment on articles and share your perspective!
 
 **Contribute:**
