@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Why Clean Energy Makes Sense, Economically | Future Economists</title>
+<meta name="keywords" content="economics, clean energy, sustainability, technology">
+<meta name="description" content="In 2024, 528 gigawatts of renewable energy were added to the global energy system, preventing $57 billion in fossil fuel usage while boosting economic growth and job creation.">
+<meta name="author" content="Joy Ashby">
+<link rel="canonical" href="http://localhost:1313/articles/clean-energy-economics/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2051f48009530a9e07d34da26068a0b35ba76172505570e039690b6d107daaba.css" integrity="sha256-IFH0gAlTCp4H002iYGigs1unYXJQVXDgOWkLbRB9qro=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/articles/clean-energy-economics/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Future Economists (Alt + H)">
+                <img src="http://localhost:1313/images/logo.png" alt="" aria-label="logo"
+                    height="35"
+                    style="display: inline-block; margin-right: 10px; vertical-align: middle;">
+                <span style="display: inline-block; vertical-align: middle;">Future Economists</span>
+            </a>
+        </div>
+
+        
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/articles/" title="Articles">
+                    <span>Articles</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About Us">
+                    <span>About Us</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/join/" title="Join the Team">
+                    <span>Join the Team</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<div class="menu-overlay" id="menu-overlay"></div>
+
+<style>
+ 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    background: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 6px;
+    z-index: 1001;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--primary-green);
+    margin: 3px 0;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+ 
+.hamburger.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+ 
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.menu-overlay.active {
+    display: block;
+}
+
+ 
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .nav {
+        padding: 0 20px;
+    }
+
+     
+    .hamburger {
+        display: flex;
+    }
+
+     
+    #menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 75%;
+        max-width: 280px;
+        background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+        flex-direction: column;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        gap: 0;
+        transition: right 0.3s ease;
+        box-shadow: -2px 0 15px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    #menu.active {
+        right: 0;
+    }
+
+    #menu li {
+        width: 100%;
+        margin: 0;
+    }
+
+    #menu li a {
+        display: block;
+        width: 100%;
+        padding: 15px 25px;
+        font-size: 1.1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        color: white;
+    }
+
+    #menu li:last-child a {
+        border-bottom: none;
+    }
+
+    #menu li a span {
+        color: white;
+    }
+
+    #menu li a span.active {
+        font-weight: bold;
+    }
+
+     
+    .logo a span {
+        font-size: 1.1rem;
+    }
+
+    .logo img {
+        height: 25px !important;
+    }
+}
+
+ 
+@media (max-width: 1024px) and (min-width: 769px) {
+    .nav {
+        padding: 0 30px;
+    }
+}
+</style>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('menu');
+    const overlay = document.getElementById('menu-overlay');
+
+    if (!hamburger || !menu || !overlay) return;
+
+    function toggleMenu() {
+        hamburger.classList.toggle('active');
+        menu.classList.toggle('active');
+        overlay.classList.toggle('active');
+        
+        
+        if (menu.classList.contains('active')) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+    }
+
+    
+    hamburger.addEventListener('click', toggleMenu);
+    
+    
+    overlay.addEventListener('click', toggleMenu);
+
+    
+    const menuLinks = menu.querySelectorAll('a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                toggleMenu();
+            }
+        });
+    });
+
+    
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768 && menu.classList.contains('active')) {
+            toggleMenu();
+        }
+    });
+});
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/articles/">Articles</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Why Clean Energy Makes Sense, Economically
+    </h1>
+    <div class="post-meta"><span title='2026-02-13 00:00:00 +0000 UTC'>February 13, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>Joy Ashby</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="how-clean-energy-is-reshaping-the-economic-landscape">How clean energy is reshaping the economic landscape<a hidden class="anchor" aria-hidden="true" href="#how-clean-energy-is-reshaping-the-economic-landscape">#</a></h2>
+<p>In 2024, a staggering <strong>528 gigawatts</strong> of renewable energy capacity, primarily solar and wind energy, were added to the global energy system, achieving two major impacts:</p>
+<ul>
+<li>Helping to confront climate change and greenhouse gas emissions</li>
+<li>Preventing fossil-fuel usage valued at <strong>$57 billion</strong></li>
+</ul>
+<p>When thinking about ways to combat climate change, clean energy often comes to mind. Clean energy, which encompasses energy sectors such as solar, wind, and nuclear energy, significantly reduces greenhouse gas emissions compared to more widely used yet more destructive fossil fuels like oil, coal, and natural gases.</p>
+<p>But clean energy has many benefits besides improving our planet. In 2025, global investment in the renewable energy sector grew to <strong>$2.3 trillion</strong>. This significant influx of capital served as a primary driver for the global economy, accounting for almost <strong>15% of all global GDP growth</strong>. In leading world economies like China, clean technology accounted for over one-third of the nation&rsquo;s total economic expansion.</p>
+<p><strong>The benefits of the global shift into clean energy extend from:</strong></p>
+<ul>
+<li>Stabilizing the atmosphere and environmental well-being</li>
+<li>Providing a surge in new job markets</li>
+<li>Creating specialized employment opportunities</li>
+<li>Driving industrial innovation</li>
+</ul>
+<hr>
+<h2 id="how-clean-energy-benefits-the-economy-jobs-and-new-tech">How clean energy benefits the economy, jobs, and new tech<a hidden class="anchor" aria-hidden="true" href="#how-clean-energy-benefits-the-economy-jobs-and-new-tech">#</a></h2>
+<h3 id="the-green-premium">The Green Premium<a hidden class="anchor" aria-hidden="true" href="#the-green-premium">#</a></h3>
+<p>A term coined by Bill Gates, the <strong>green premium</strong> refers to the additional cost of growing a renewable, zero-emission technology over one that uses fossil fuels and emits carbon. This measures the price difference between sustainable options (like solar power) and standard options (like oil).</p>
+<p>The green premium is often pointed out in arguments that clean energy is the more expensive and financially unsustainable option. However, this argument is countered by compelling 2024 data:</p>
+<p><strong>Cost Comparison (2024):</strong></p>
+<ul>
+<li>Solar photovoltaics: <strong>51% cheaper</strong> than the least-cost new fossil-fuel powered plant</li>
+<li>Onshore wind: <strong>41% cheaper</strong> than fossil fuel alternatives</li>
+</ul>
+<h3 id="job-growth-and-economic-impact">Job Growth and Economic Impact<a hidden class="anchor" aria-hidden="true" href="#job-growth-and-economic-impact">#</a></h3>
+<p>In the United States, the clean energy workforce has scaled rapidly:</p>
+<p><strong>By the end of 2024:</strong></p>
+<ul>
+<li>Nearly <strong>3.6 million Americans</strong> worked in the renewable energy sector</li>
+<li><strong>7%</strong> of new jobs were created thanks to that sector</li>
+<li>Clean energy jobs grew <strong>3.5 times faster</strong> than the rest of the U.S. economy
+<ul>
+<li>Clean energy: 2.8% growth</li>
+<li>General workforce: 0.8% growth</li>
+</ul>
+</li>
+</ul>
+<h3 id="ai-and-the-renewable-energy-boom">AI and the Renewable Energy Boom<a hidden class="anchor" aria-hidden="true" href="#ai-and-the-renewable-energy-boom">#</a></h3>
+<p>New, developing technologies, especially artificial intelligence, are rapidly driving up global electricity demand. Artificial intelligence requires massive amounts of data in order to compute, and that happens in data centers.</p>
+<p><strong>Data center energy consumption:</strong></p>
+<ul>
+<li><strong>2024:</strong> Close to 415 Terawatt-hours consumed
+<ul>
+<li>This represents almost <strong>1.5%</strong> of global electricity</li>
+</ul>
+</li>
+<li><strong>2030 projection:</strong> Power demand expected to grow by <strong>160%</strong></li>
+</ul>
+<p>Major tech companies like Google and Meta have committed to &ldquo;Net Zero&rdquo; carbon emission goals. Because massive amounts of power are required to run their data centers, these companies are becoming some of the world&rsquo;s biggest buyers and investors of renewable energy.</p>
+<p>While the long-term trajectory of renewable energy is positive, shifting the world&rsquo;s energy foundation in just a few decades creates significant friction, even though it is, <em>ceteris paribus</em> (all else equal), undeniably beneficial.</p>
+<hr>
+<h2 id="trade-offs-and-externalities-of-going-green">Trade-offs and externalities of going green<a hidden class="anchor" aria-hidden="true" href="#trade-offs-and-externalities-of-going-green">#</a></h2>
+<p>If clean energy is so beneficial in the long-run, why hasn&rsquo;t the world made the shift faster? Several factors contribute to the slower-than-ideal transition:</p>
+<p><strong>Barriers to faster adoption:</strong></p>
+<ul>
+<li>High upfront infrastructure costs for solar panels, wind turbines, and grid upgrades</li>
+<li>Governments worldwide continue to subsidize fossil fuel production</li>
+<li>Existing energy infrastructure creates path dependency</li>
+</ul>
+<h3 id="supply-chain-concentration">Supply Chain Concentration<a hidden class="anchor" aria-hidden="true" href="#supply-chain-concentration">#</a></h3>
+<p>Unlike oil, which is found in many regions, the ingredients for creating the hardware to power clean energy plants are highly concentrated.</p>
+<p><strong>China&rsquo;s dominance in critical materials (as of 2026):</strong></p>
+<ul>
+<li><strong>79%</strong> of the world&rsquo;s graphite processing</li>
+<li><strong>60%</strong> of rare earth elements (terbium and neodymium)
+<ul>
+<li>Essential for EV motors and wind turbines</li>
+</ul>
+</li>
+</ul>
+<p><strong>Future demand concerns:</strong></p>
+<ul>
+<li>To meet projected 2030 climate goals, lithium demand is expected to increase by <strong>9x</strong></li>
+<li>If demand surpasses supply, lithium prices could spike</li>
+<li>The green premium could be reinstated if supply chain bottlenecks emerge</li>
+</ul>
+<hr>
+<h2 id="what-this-means-for-us">What this means for us<a hidden class="anchor" aria-hidden="true" href="#what-this-means-for-us">#</a></h2>
+<p>While the transition to renewable energy involves many trade-offs and high upfront costs, the long-term benefits to the global climate and economy outweigh the initial challenges.</p>
+<p><strong>Key takeaways:</strong></p>
+<ul>
+<li>Stabilized energy prices in the long run</li>
+<li>Massive job creation across multiple sectors</li>
+<li>Reduced dependency on fossil fuel price volatility</li>
+</ul>
+<p>By focusing on infrastructure investment and adaptable supply chains, the current transition risks can be transformed into a secure green discount for the global economy. This shift will not only benefit the planet, it will also put us on a path to achieving a low-cost energy foundation for our future.</p>
+<hr>
+<h2 id="sources-and-references">Sources and References<a hidden class="anchor" aria-hidden="true" href="#sources-and-references">#</a></h2>
+<ul>
+<li><a href="https://www.brookings.edu/articles/the-economic-impacts-of-clean-power/">The Economic Impacts of Clean Power</a> - Brookings Institution</li>
+<li><a href="https://www.visualcapitalist.com/1-5-trillion-in-global-power-investment/">Global Power Investment Trends</a> - Visual Capitalist</li>
+<li><a href="https://www.goldmansachs.com/intelligence/pages/ai-is-poised-to-drive-160-increase-in-data-center-power-demand.html">AI Data Center Power Demand</a> - Goldman Sachs</li>
+<li><a href="https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions">The Role of Critical Minerals in Clean Energy Transitions</a> - International Energy Agency</li>
+<li><a href="https://www.irena.org/Publications/2024/Sep/Renewable-power-generation-costs-in-2023">Renewable Power Generation Costs in 2023</a> - IRENA</li>
+<li><a href="https://www.carbonbrief.org/un-five-reasons-why-switching-to-renewables-is-smart-economics/">Five Reasons Why Switching to Renewables is Smart Economics</a> - Carbon Brief</li>
+<li><a href="https://e2.org/reports/clean-economy-works-economic-impact-report-2024/">Clean Economy Works: Economic Impact Report 2024</a> - E2 (Environmental Entrepreneurs)</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/economics/">Economics</a></li>
+      <li><a href="http://localhost:1313/tags/clean-energy/">Clean Energy</a></li>
+      <li><a href="http://localhost:1313/tags/sustainability/">Sustainability</a></li>
+      <li><a href="http://localhost:1313/tags/technology/">Technology</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/articles/tokenomics-explained/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Tokenomics: Explained</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    <footer class="footer">
+    <div style="margin-bottom: 12px;">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Future Economists</a></span>
+        <span> · A student-led project</span>
+    </div>
+    
+    <div class="footer-social-icons">
+        <a href="https://instagram.com/future.economists.youth" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+        </a>
+    </div>
+</footer></body>
+
+</html>
