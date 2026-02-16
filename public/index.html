@@ -11,7 +11,7 @@
 <meta name="description" content="Exploring economics for tomorrow&#39;s leaders">
 <meta name="author" content="Joy Ashby">
 <link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2051f48009530a9e07d34da26068a0b35ba76172505570e039690b6d107daaba.css" integrity="sha256-IFH0gAlTCp4H002iYGigs1unYXJQVXDgOWkLbRB9qro=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.4571cbfd8ca64b279221a7480e20c3a7cbfe3ea8a5a1c697446b142c6ba150eb.css" integrity="sha256-RXHL/YymSyeSIadIDiDDp8v&#43;PqilocaXRGsULGuhUOs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -330,6 +330,37 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
     </div>
 </section>
+
+
+
+<section class="newsletter-section">
+    <div class="newsletter-container">
+        <h2>Join Our Newsletter</h2>
+        <p>Get biweekly insights on tech economics, emerging technologies, and the future of finance—straight to your inbox.</p>
+        
+        <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/newsletter-success/" class="newsletter-form">
+            
+            <input type="hidden" name="form-name" value="newsletter">
+            <p style="display: none;">
+                <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+            </p>
+            
+            <div class="form-group">
+                <input type="email" 
+                       name="email" 
+                       placeholder="Enter your email address" 
+                       required 
+                       class="newsletter-input">
+                <button type="submit" class="newsletter-button">Subscribe</button>
+            </div>
+            <p class="newsletter-disclaimer">We respect your privacy. Unsubscribe anytime. No spam, ever.</p>
+        </form>
+    </div>
+</section>
+
+
+
+
 
 
     </main>

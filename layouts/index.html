@@ -70,4 +70,35 @@
     </div>
 </section>
 
+
+<!-- Newsletter Signup Section -->
+<section class="newsletter-section">
+    <div class="newsletter-container">
+        <h2>Join Our Newsletter</h2>
+        <p>Get biweekly insights on tech economics, emerging technologies, and the future of finance—straight to your inbox.</p>
+        
+        <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/newsletter-success/" class="newsletter-form">
+            <!-- Hidden field for spam protection -->
+            <input type="hidden" name="form-name" value="newsletter">
+            <p style="display: none;">
+                <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+            </p>
+            
+            <div class="form-group">
+                <input type="email" 
+                       name="email" 
+                       placeholder="Enter your email address" 
+                       required 
+                       class="newsletter-input">
+                <button type="submit" class="newsletter-button">Subscribe</button>
+            </div>
+            <p class="newsletter-disclaimer">We respect your privacy. Unsubscribe anytime. No spam, ever.</p>
+        </form>
+    </div>
+</section>
+
+
+
+
+
 {{ end }}
