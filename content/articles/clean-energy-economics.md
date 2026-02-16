@@ -28,7 +28,7 @@ But clean energy has many benefits besides improving our planet. In 2025, global
 
 ### The Green Premium
 
-A term coined by Bill Gates, the **green premium** refers to the additional cost of growing a renewable, zero-emission technology over one that uses fossil fuels and emits carbon. This measures the price difference between sustainable options (like solar power) and standard options (like oil). 
+The **green premium** refers to the additional cost of growing a renewable, zero-emission technology over one that uses fossil fuels and emits carbon. This measures the price difference between sustainable options (like solar power) and standard options (like oil). 
 
 The green premium is often pointed out in arguments that clean energy is the more expensive and financially unsustainable option. However, this argument is countered by compelling 2024 data:
 
