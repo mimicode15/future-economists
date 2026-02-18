@@ -1137,3 +1137,167 @@ body.searching .main > *:not(.search-page) {
 }
 
 
+/* ===== NEWSLETTER SECTION ===== */
+.newsletter-section {
+    background: linear-gradient(135deg, #c8e6c9 0%, #e8f5e9 100%);
+    padding: 80px 30px;  /* More padding */
+    margin: 100px 0 0 0;  /* More top margin */
+    text-align: center;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 32px;
+}
+
+.newsletter-container {
+    max-width: 550px;  /* Narrower for better spacing */
+    margin: 0 auto;
+}
+
+.newsletter-section h2 {
+    color: var(--primary-green) !important;
+    font-size: 2.8rem;
+    margin-bottom: 24px;  /* More space */
+    font-weight: 800;
+}
+
+.newsletter-section > p {
+    color: var(--dark-gray) !important;
+    font-size: 1.2rem;
+    margin-bottom: 50px;  /* Much more space */
+    line-height: 1.7;
+    padding: 0 20px;  /* Side padding for text */
+}
+
+.newsletter-form {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  /* More space between input and button */
+    margin-bottom: 20px;
+}
+
+.newsletter-input {
+    width: 100%;
+    padding: 20px 24px;  /* More padding */
+    font-size: 1.05rem;
+    border: 2px solid #ddd;
+    border-radius: 16px;
+    font-family: 'Poppins', sans-serif;
+    background: white !important;  /* Force white background always */
+    color: #333 !important;  /* Dark text color */
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    -webkit-appearance: none;  /* Remove default styling */
+    appearance: none;
+}
+
+/* Ensure white background in all states */
+.newsletter-input,
+.newsletter-input:focus,
+.newsletter-input:active,
+.newsletter-input:hover {
+    background: white !important;
+}
+
+.newsletter-input:focus {
+    outline: none;
+    border-color: var(--accent-green);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    transform: translateY(-1px);
+}
+
+.newsletter-input::placeholder {
+    color: #999;
+}
+
+/* Autofill styling - keep white background */
+.newsletter-input:-webkit-autofill,
+.newsletter-input:-webkit-autofill:hover,
+.newsletter-input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+    -webkit-text-fill-color: #333 !important;
+}
+
+.newsletter-button {
+    width: 100%;
+    padding: 20px 36px;  /* More padding */
+    background: var(--primary-green);
+    color: white;
+    border: none;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 2px 8px rgba(45, 90, 61, 0.3);
+}
+
+.newsletter-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(45, 90, 61, 0.4);
+    background: var(--accent-green);
+}
+
+.newsletter-button:active {
+    transform: translateY(-1px);
+}
+
+.newsletter-disclaimer {
+    font-size: 0.9rem;
+    color: var(--dark-gray) !important;
+    margin-top: 18px;  /* More space above */
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .newsletter-section {
+        padding: 60px 25px;  /* More breathing room */
+        margin: 60px 15px 0 15px;  /* Side margins */
+        border-radius: 24px;
+    }
+    
+    .newsletter-section h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    .newsletter-section > p {
+        font-size: 1.05rem;
+        margin-bottom: 40px;
+        padding: 0 10px;
+    }
+    
+    .form-group {
+        gap: 18px;
+    }
+    
+    .newsletter-input {
+        padding: 18px 20px;
+        font-size: 1rem;
+        border-radius: 12px;
+    }
+    
+    .newsletter-button {
+        padding: 18px 24px;
+        font-size: 1.05rem;
+        border-radius: 12px;
+    }
+    
+    .newsletter-disclaimer {
+        font-size: 0.85rem;
+        margin-top: 15px;
+    }
+}
+
+/* Tablet adjustments */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .newsletter-section {
+        padding: 70px 30px;
+    }
+}
