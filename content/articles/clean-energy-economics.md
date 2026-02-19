@@ -104,7 +104,6 @@ By focusing on infrastructure investment and adaptable supply chains, the curren
 
 - [The Economic Impacts of Clean Power](https://www.brookings.edu/articles/the-economic-impacts-of-clean-power/) - Brookings Institution
 - [Global Power Investment Trends](https://www.visualcapitalist.com/1-5-trillion-in-global-power-investment/) - Visual Capitalist
-- [AI Data Center Power Demand](https://www.goldmansachs.com/intelligence/pages/ai-is-poised-to-drive-160-increase-in-data-center-power-demand.html) - Goldman Sachs
 - [The Role of Critical Minerals in Clean Energy Transitions](https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions) - International Energy Agency
 - [Renewable Power Generation Costs in 2023](https://www.irena.org/Publications/2024/Sep/Renewable-power-generation-costs-in-2023) - IRENA
 - [Five Reasons Why Switching to Renewables is Smart Economics](https://www.carbonbrief.org/un-five-reasons-why-switching-to-renewables-is-smart-economics/) - Carbon Brief
