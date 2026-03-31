@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Quantum Computing &amp; The Future Economy | Future Economists</title>
+<meta name="keywords" content="quantum computing, technology, economics, cryptography, innovation">
+<meta name="description" content="From drug discovery to cryptography, quantum technology is projected to generate $100 billion in economic value by the mid-2030s. But what is quantum computing, and what is it used for?">
+<meta name="author" content="Joy Ashby">
+<link rel="canonical" href="http://localhost:1313/articles/quantum_computing_and_the_future_economy/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8bf651a27f0d72b4e0930ae65baa88a231458c308845211ae7df62265a88a7da.css" integrity="sha256-i/ZRon8NcrTgkwrmW6qIojFFjDCIRSEa599iJlqIp9o=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/articles/quantum_computing_and_the_future_economy/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><link rel="icon" type="image/png" href="/images/logo.png">
+<link rel="apple-touch-icon" href="/images/logo.png">
+</head>
+<body id="top">
+    <head>
+  
+  <link rel="icon" type="image/png" href="/images/logo.png">
+  <link rel="apple-touch-icon" href="/images/logo.png">
+
+  
+  <meta property="og:title" content="Future Economists">
+  <meta property="og:description" content="Exploring economic trends, insights, and opportunities for the next generation of thinkers.">
+  <meta property="og:image" content="http://localhost:1313/images/logo.png">
+  <meta property="og:url" content="http://localhost:1313/articles/quantum_computing_and_the_future_economy/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/logo.png">
+</head>
+
+
+
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Future Economists (Alt + H)">
+                <img src="http://localhost:1313/images/logo.png" alt="" aria-label="logo"
+                    height="35"
+                    style="display: inline-block; margin-right: 10px; vertical-align: middle;">
+                <span style="display: inline-block; vertical-align: middle;">Future Economists</span>
+            </a>
+        </div>
+
+        
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/articles/" title="Articles">
+                    <span>Articles</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About Us">
+                    <span>About Us</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/join/" title="Join the Team">
+                    <span>Join the Team</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<div class="menu-overlay" id="menu-overlay"></div>
+
+<style>
+ 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    background: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 6px;
+    z-index: 1001;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--primary-green);
+    margin: 3px 0;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+ 
+.hamburger.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+ 
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.menu-overlay.active {
+    display: block;
+}
+
+ 
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .nav {
+        padding: 0 20px;
+    }
+
+     
+    .hamburger {
+        display: flex;
+    }
+
+     
+    #menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 75%;
+        max-width: 280px;
+        background: rgba(15, 117, 78, 0.95);   
+        backdrop-filter: blur(10px);   
+        -webkit-backdrop-filter: blur(10px);   
+        flex-direction: column;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        gap: 0;
+        transition: right 0.3s ease;
+        box-shadow: -2px 0 15px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    #menu.active {
+        right: 0;
+    }
+
+    #menu li {
+        width: 100%;
+        margin: 0;
+    }
+
+    #menu li a {
+        display: block;
+        width: 100%;
+        padding: 15px 25px;
+        font-size: 1.1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        color: white;
+    }
+
+    #menu li:last-child a {
+        border-bottom: none;
+    }
+
+    #menu li a span {
+        color: white;
+    }
+
+    #menu li a span.active {
+        font-weight: bold;
+    }
+
+     
+    .logo a span {
+        font-size: 1.1rem;
+    }
+
+    .logo img {
+        height: 25px !important;
+    }
+}
+
+ 
+@media (max-width: 1024px) and (min-width: 769px) {
+    .nav {
+        padding: 0 30px;
+    }
+}
+</style>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('menu');
+    const overlay = document.getElementById('menu-overlay');
+
+    if (!hamburger || !menu || !overlay) return;
+
+    function toggleMenu() {
+        hamburger.classList.toggle('active');
+        menu.classList.toggle('active');
+        overlay.classList.toggle('active');
+        
+        
+        if (menu.classList.contains('active')) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+    }
+
+    
+    hamburger.addEventListener('click', toggleMenu);
+    
+    
+    overlay.addEventListener('click', toggleMenu);
+
+    
+    const menuLinks = menu.querySelectorAll('a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                toggleMenu();
+            }
+        });
+    });
+
+    
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768 && menu.classList.contains('active')) {
+            toggleMenu();
+        }
+    });
+});
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/articles/">Articles</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Quantum Computing &amp; The Future Economy
+    </h1>
+    <div class="post-description">
+      From drug discovery to cryptography, quantum technology is projected to generate $100 billion in economic value by the mid-2030s. But what is quantum computing, and what is it used for?
+    </div>
+    <div class="post-meta"><span title='2026-03-31 00:00:00 +0000 UTC'>March 31, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>Joy Ashby</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="http://localhost:1313/images/FE_Quantum_Computing_Worth.png" alt="Global Quantum Computing Market Revenue 2018–2030">
+        
+</figure>
+  <div class="post-content"><p>In 2024, the quantum technology industry reached a significant milestone, generating more than $1.45 billion in global revenue. While classical computers—like your smartphone or laptop—rely on binary bits (0 or 1), quantum computing utilizes the principles of quantum mechanics to process information in a fundamentally different way. With accelerating investment in this field, projections from McKinsey and the World Economic Forum suggest that the total economic value of quantum technology could reach $100 billion by the mid-2030s.</p>
+<h2 id="what-is-quantum-computing">What Is Quantum Computing?<a hidden class="anchor" aria-hidden="true" href="#what-is-quantum-computing">#</a></h2>
+<p>The foundation of this technology is the <strong>qubit</strong>. Unlike a classical bit, which is limited to a single state of either 0 or 1 at any given time, a qubit can exist in a state of <strong>superposition</strong>, representing both 0 and 1 simultaneously. This allows quantum systems to perform parallel computations on a scale impossible for binary systems.</p>
+<p>This processing power is enhanced by <strong>entanglement</strong>, a phenomenon where the state of one qubit is linked to another, enabling coordinated data processing across the entire system. Because of these unique mechanics, Quantum Technology (QT) is categorized into three primary sectors:</p>
+<ul>
+<li><strong>Quantum Computing:</strong> Focuses on solving complex optimization and simulation problems.</li>
+<li><strong>Quantum Communication:</strong> Utilizes quantum states for secure, tamper-evident data transmission.</li>
+<li><strong>Quantum Sensing:</strong> Used to make high-precision measurements of gravitational, magnetic, and electric fields.</li>
+</ul>
+<p>By 2035, these combined sectors are projected to reach over $97 billion in revenue, with quantum computing accounting for about 74% of that.</p>
+<p><img alt="Global Quantum Computing Market Revenue 2018–2030" loading="lazy" src="/images/FE_Quantum_Computing_Worth.png"></p>
+<h2 id="what-industries-will-quantum-computing-affect">What Industries Will Quantum Computing Affect?<a hidden class="anchor" aria-hidden="true" href="#what-industries-will-quantum-computing-affect">#</a></h2>
+<p>While quantum computing is projected to affect nearly every sector in the future, there are four fields that will be particularly transformed:</p>
+<h3 id="1-life-sciences-and-drug-discovery">1. Life Sciences and Drug Discovery<a hidden class="anchor" aria-hidden="true" href="#1-life-sciences-and-drug-discovery">#</a></h3>
+<p>Developing a new pharmaceutical can cost between $1 to $2.5 billion and the process usually takes 10 to 15 years, largely due to the massive difficulty of simulating molecular interactions. Quantum computers can model these interactions from first principles, potentially halving research and development timelines. Early applications have already focused on simulating KRAS proteins, which are critical in cancer research.</p>
+<h3 id="2-financial-services-and-cryptography">2. Financial Services and Cryptography<a hidden class="anchor" aria-hidden="true" href="#2-financial-services-and-cryptography">#</a></h3>
+<p>Financial institutions are already deploying quantum algorithms for risk assessment and portfolio optimization. However, the most immediate economic concern is the vulnerability of RSA and ECC encryption. Because quantum computers can theoretically solve the large-number factorization problems that secure modern digital infrastructure, the industry is transitioning toward <strong>Post-Quantum Cryptography (PQC)</strong>. The U.S. National Institute of Standards and Technology (NIST) finalized its first PQC standards in 2024 to mitigate this systemic risk.</p>
+<h3 id="3-materials-science-and-energy-storage">3. Materials Science and Energy Storage<a hidden class="anchor" aria-hidden="true" href="#3-materials-science-and-energy-storage">#</a></h3>
+<p>The transition to electric vehicles (EVs) is currently restricted by the energy density of lithium-ion batteries. Quantum simulations allow researchers to analyze electron behavior in chemical compounds, accelerating the development of solid-state and lithium-sulfur batteries that are key to the future of electric vehicles.</p>
+<h3 id="4-logistics-and-supply-chain-optimization">4. Logistics and Supply Chain Optimization<a hidden class="anchor" aria-hidden="true" href="#4-logistics-and-supply-chain-optimization">#</a></h3>
+<p>Supply chain management relies on <strong>combinatorial optimization</strong> — finding the most efficient path among billions of variables. Quantum hardware, such as D-Wave&rsquo;s annealing systems, has already demonstrated the ability to reduce industrial scheduling tasks from 30 minutes to under five minutes in live production environments.</p>
+<h2 id="what-are-the-risks-of-quantum-computing">What Are The Risks Of Quantum Computing?<a hidden class="anchor" aria-hidden="true" href="#what-are-the-risks-of-quantum-computing">#</a></h2>
+<p>Despite the massive upside, the deployment of quantum technology faces significant logistical and security hurdles:</p>
+<ul>
+<li><strong>Decoherence and Error Correction:</strong> Qubits are highly sensitive to environmental noise, like heat and radiation. Many systems require operational temperatures near absolute zero (−273°C). Consequently, the industry shifted in 2024 from simply increasing qubit counts to improving error correction and hardware stability.</li>
+<li><strong>Cybersecurity Latency:</strong> A major risk is the &ldquo;harvest now, decrypt later&rdquo; tactic, where entities collect encrypted data today with the intent of decrypting it once fault-tolerant quantum computers become available.</li>
+<li><strong>Geopolitical Concentration:</strong> Access to quantum hardware is now a matter of national strategy. Heavy public investment in the U.S., China, and the EU has created a competitive race for <em>quantum advantage</em> — the point at which a quantum machine decisively outperforms the best classical supercomputer.</li>
+</ul>
+<h2 id="deployment-timeline">Deployment Timeline<a hidden class="anchor" aria-hidden="true" href="#deployment-timeline">#</a></h2>
+<p>The United Nations has designated 2025 as the International Year of Quantum Science and Technology, marking the transition from lab-based experimentation to industrial infrastructure. While the technology is not yet a total replacement for classical computing, it is increasingly used as a specialized accelerator for critical problems in medicine, finance, and logistics.</p>
+<h2 id="the-takeaway">The Takeaway<a hidden class="anchor" aria-hidden="true" href="#the-takeaway">#</a></h2>
+<p>Quantum computing is transitioning from a theoretical technology to an economic driver. While hardware fragility and the need for new encryption standards present hurdles, the projected growth suggests it will become a core component of the global technological infrastructure. Ultimately, the economic impact won&rsquo;t come from a total replacement of current systems, but from the ability to solve specific optimization and simulation problems that have remained impossible for binary computers to solve for decades.</p>
+<hr>
+<h2 id="sources-and-references">Sources and References<a hidden class="anchor" aria-hidden="true" href="#sources-and-references">#</a></h2>
+<ul>
+<li><a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-year-of-quantum-from-concept-to-reality-in-2025">McKinsey: The Year of Quantum</a></li>
+<li><a href="https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-quantum-computing">McKinsey: What is Quantum Computing?</a></li>
+<li><a href="https://www.cfodive.com/news/quantum-advantage-boost-businesses-2t-2035-mckinsey-IT-technology-computing-tech/714489/">CFO Dive: Quantum Advantage</a></li>
+<li><a href="https://csrc.nist.gov/projects/post-quantum-cryptography/post-quantum-cryptography-standardization">NIST: Post-Quantum Cryptography</a></li>
+<li><a href="https://www.dwavequantum.com/company/newsroom/press-release/d-wave-to-showcase-real-world-quantum-computing-applications-in-action-at-q2b24-silicon-valley/">D-Wave Quantum</a></li>
+<li><a href="https://www.unesco.org/en/years/quantum-science-technology">UNESCO: International Year of Quantum</a></li>
+<li><a href="https://www.weforum.org/publications/state-of-quantum-computing-building-a-quantum-economy/">WEF: State of Quantum Computing</a></li>
+<li><a href="https://quantumconsortium.org/publication/2025-market-forecast-quantum-computing/">Quantum Consortium: 2025 Market Forecast</a></li>
+<li><a href="https://www.fortunebusinessinsights.com/quantum-computing-market-104855">Fortune Business Insights: Quantum Computing Market</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/quantum-computing/">Quantum Computing</a></li>
+      <li><a href="http://localhost:1313/tags/technology/">Technology</a></li>
+      <li><a href="http://localhost:1313/tags/economics/">Economics</a></li>
+      <li><a href="http://localhost:1313/tags/cryptography/">Cryptography</a></li>
+      <li><a href="http://localhost:1313/tags/innovation/">Innovation</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/articles/clean-energy-economics/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Why Clean Energy Makes Sense, Economically</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    <footer class="footer">
+    <div style="margin-bottom: 12px;">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Future Economists</a></span>
+        <span> · A student-led project</span>
+    </div>
+    
+    <div class="footer-social-icons">
+        <a href="https://instagram.com/future.economists.youth" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+        </a>
+    </div>
+</footer></body>
+
+</html>
