@@ -16,28 +16,37 @@
 </article>
 {{- end }}
 
-{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- $pages = where $pages "Params.hidden" "!=" true }}
+{{- $featured := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $featured = where $featured "Params.hidden" "!=" true }}
+{{- $featured = $featured | first 2 }}
 
-{{- if $pages }}
-<div class="articles-container">
-    {{- range $pages | first 10 }}
-    <article class="article-card">
-        <a href="{{ .RelPermalink }}" class="article-link">
-            {{- if .Params.cover }}
-            <div class="article-image">
-                <img src="{{ .Params.cover.image }}" alt="{{ .Title }}">
-            </div>
-            {{- end }}
-            <div class="article-content">
-                <h2>{{ .Title }}</h2>
-                <p class="article-summary">{{ .Params.description | default .Summary }}</p>
-            </div>
-        </a>
-    </article>
+{{- if $featured }}
+<section class="featured-section">
+  <div class="featured-header">
+    <span class="featured-label">LATEST</span>
+    <h2 class="featured-title">Featured Articles</h2>
+  </div>
+  <div class="featured-grid">
+    {{- range $featured }}
+    <a href="{{ .RelPermalink }}" class="featured-card">
+      {{- if .Params.cover }}
+      <div class="featured-card-img">
+        <img src="{{ .Params.cover.image }}" alt="{{ .Title }}">
+      </div>
+      {{- end }}
+      <div class="featured-card-body">
+        <span class="featured-tag">{{ .Date.Format "Jan 2, 2006" }}</span>
+        <h3 class="featured-card-title">{{ .Title }}</h3>
+        <p class="featured-card-desc">{{ .Params.description | default .Summary | truncate 120 }}</p>
+        <span class="featured-read">Read →</span>
+      </div>
+    </a>
     {{- end }}
-</div>
+  </div>
+</section>
 {{- end }}
+
+
 
 <!-- Floating Asymmetric Images Section -->
 <section class="floating-images-section">
