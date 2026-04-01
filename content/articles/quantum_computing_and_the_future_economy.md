@@ -35,11 +35,11 @@ Developing a new pharmaceutical can cost between $1 to $2.5 billion and the proc
 
 ### 2. Financial Services and Cryptography
 
-Financial institutions are already deploying quantum algorithms for risk assessment and portfolio optimization. However, the most immediate economic concern is the vulnerability of RSA and ECC encryption. Because quantum computers can theoretically solve the large-number factorization problems that secure modern digital infrastructure, the industry is transitioning toward **Post-Quantum Cryptography (PQC)**. The U.S. National Institute of Standards and Technology (NIST) finalized its first PQC standards in 2024 to mitigate this systemic risk.
+Financial institutions are already deploying quantum algorithms for risk assessment and portfolio optimization. However, the most immediate economic concern is the vulnerability of RSA and ECC encryption. Because quantum computers can theoretically solve the large-number factorization problems that secure modern digital infrastructure, the industry is transitioning toward **Post-Quantum Cryptography (PQC)**. The U.S. National Institute of Standards and Technology (NIST) finalized its first PQC standards in 2024 to mitigate this risk.
 
 ### 3. Materials Science and Energy Storage
 
-The transition to electric vehicles (EVs) is currently restricted by the energy density of lithium-ion batteries. Quantum simulations allow researchers to analyze electron behavior in chemical compounds, accelerating the development of solid-state and lithium-sulfur batteries that are key to the future of electric vehicles.
+The transition to electric vehicles (EVs) is currently restricted by the energy density of lithium-ion batteries. Quantum simulations allow researchers to analyze electron behavior in chemical compounds, accelerating the development of solid-state and lithium-sulfur batteries that are key to the development of electric vehicles.
 
 ### 4. Logistics and Supply Chain Optimization
 
@@ -51,7 +51,7 @@ Despite the massive upside, the deployment of quantum technology faces significa
 
 - **Decoherence and Error Correction:** Qubits are highly sensitive to environmental noise, like heat and radiation. Many systems require operational temperatures near absolute zero (−273°C). Consequently, the industry shifted in 2024 from simply increasing qubit counts to improving error correction and hardware stability.
 - **Cybersecurity Latency:** A major risk is the "harvest now, decrypt later" tactic, where entities collect encrypted data today with the intent of decrypting it once fault-tolerant quantum computers become available.
-- **Geopolitical Concentration:** Access to quantum hardware is now a matter of national strategy. Heavy public investment in the U.S., China, and the EU has created a competitive race for *quantum advantage* — the point at which a quantum machine decisively outperforms the best classical supercomputer.
+- **Geopolitical Concentration:** Access to quantum hardware is now a matter of national strategy. Heavy public investment in the U.S., China, and the EU has created a competitive race for *quantum advantage* — the point at which a quantum machine outperforms the best classical supercomputer.
 
 ## Deployment Timeline
 
@@ -59,7 +59,7 @@ The United Nations has designated 2025 as the International Year of Quantum Scie
 
 ## The Takeaway
 
-Quantum computing is transitioning from a theoretical technology to an economic driver. While hardware fragility and the need for new encryption standards present hurdles, the projected growth suggests it will become a core component of the global technological infrastructure. Ultimately, the economic impact won't come from a total replacement of current systems, but from the ability to solve specific optimization and simulation problems that have remained impossible for binary computers to solve for decades.
+Quantum computing is transitioning from a theoretical technology to an economic driver. While hardware fragility and the need for new encryption standards present challenges, the projected growth suggests it will become a core component of the global technological infrastructure. Ultimately, the economic impact won't come from a total replacement of current systems, but from the ability to solve specific optimization and simulation problems that have remained impossible for binary computers to solve for decades.
 
 ---
 
