@@ -1,6 +1,6 @@
 ---
 title: "Being an Influencer in 2026: Sustainable Career or Saturated Market?"
-author: "Ayesha Jena"
+author: "Ayesha Jena | Edited by Joy Ashby"
 date: "2026-04-22"
 tags: ["creator economy", "influencer marketing", "digital economics", "social media", "labor markets"]
 summary: "An analysis of market growth, income inequality, and the psychological toll of the creator economy."
