@@ -6,48 +6,90 @@
     <description>Recent content in Tags on Future Economists</description>
     <generator>Hugo -- 0.153.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Banking</title>
+      <link>http://localhost:1313/tags/banking/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/banking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cryptography</title>
+      <link>http://localhost:1313/tags/cryptography/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cryptography/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybersecurity</title>
+      <link>http://localhost:1313/tags/cybersecurity/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cybersecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Encryption</title>
+      <link>http://localhost:1313/tags/encryption/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/encryption/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Financial Security</title>
+      <link>http://localhost:1313/tags/financial-security/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/financial-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Post-Quantum Cryptography</title>
+      <link>http://localhost:1313/tags/post-quantum-cryptography/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/post-quantum-cryptography/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quantum Computing</title>
+      <link>http://localhost:1313/tags/quantum-computing/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/quantum-computing/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Creator Economy</title>
       <link>http://localhost:1313/tags/creator-economy/</link>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/creator-economy/</guid>
       <description></description>
     </item>
     <item>
       <title>Digital Economics</title>
       <link>http://localhost:1313/tags/digital-economics/</link>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/digital-economics/</guid>
       <description></description>
     </item>
     <item>
       <title>Influencer Marketing</title>
       <link>http://localhost:1313/tags/influencer-marketing/</link>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/influencer-marketing/</guid>
       <description></description>
     </item>
     <item>
       <title>Labor Markets</title>
       <link>http://localhost:1313/tags/labor-markets/</link>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/labor-markets/</guid>
       <description></description>
     </item>
     <item>
       <title>Social Media</title>
       <link>http://localhost:1313/tags/social-media/</link>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/social-media/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cryptography</title>
-      <link>http://localhost:1313/tags/cryptography/</link>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cryptography/</guid>
       <description></description>
     </item>
     <item>
@@ -62,13 +104,6 @@
       <link>http://localhost:1313/tags/innovation/</link>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/innovation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Quantum Computing</title>
-      <link>http://localhost:1313/tags/quantum-computing/</link>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/quantum-computing/</guid>
       <description></description>
     </item>
     <item>
@@ -118,6 +153,90 @@
       <link>http://localhost:1313/tags/introduction/</link>
       <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/introduction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Spending</title>
+      <link>http://localhost:1313/tags/ai-spending/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai-spending/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>http://localhost:1313/tags/artificial-intelligence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Computing</title>
+      <link>http://localhost:1313/tags/cloud-computing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Economy</title>
+      <link>http://localhost:1313/tags/digital-economy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/digital-economy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FinOps</title>
+      <link>http://localhost:1313/tags/finops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/finops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GDP</title>
+      <link>http://localhost:1313/tags/gdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gdp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inference</title>
+      <link>http://localhost:1313/tags/inference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/inference/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Labor Productivity</title>
+      <link>http://localhost:1313/tags/labor-productivity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/labor-productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>http://localhost:1313/tags/productivity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SaaS</title>
+      <link>http://localhost:1313/tags/saas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/saas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology Costs</title>
+      <link>http://localhost:1313/tags/technology-costs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/technology-costs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workforce</title>
+      <link>http://localhost:1313/tags/workforce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/workforce/</guid>
       <description></description>
     </item>
   </channel>

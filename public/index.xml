@@ -6,8 +6,15 @@
     <description>Recent content on Future Economists</description>
     <generator>Hugo -- 0.153.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantum Hacking &amp; Banking Security</title>
+      <link>http://localhost:1313/articles/quantum_hacking_and_security/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/quantum_hacking_and_security/</guid>
+      <description>Quantum computers threaten to break modern encryption, and the global banking system faces a critical vulnerability. Discover how Post-Quantum Cryptography is racing against the clock to secure trillions in financial assets.</description>
+    </item>
     <item>
       <title>Being an Influencer in 2026: Sustainable Career or Saturated Market?</title>
       <link>http://localhost:1313/articles/the_2026_creator_economy/</link>

@@ -2,46 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/articles/the_2026_creator_economy/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/artificial-intelligence/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/creator-economy/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/digital-economics/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/influencer-marketing/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/labor-markets/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/social-media/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/cryptography/</loc>
-    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/digital-economy/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/economics/</loc>
-    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gdp/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/labor-productivity/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/productivity/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/technology/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/ai_productivity_vs_real/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/workforce/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai-spending/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cloud-computing/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/finops/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/inference/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/inference_economics/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/saas/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/technology-costs/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/banking/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cryptography/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cybersecurity/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/encryption/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/financial-security/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/post-quantum-cryptography/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/quantum-computing/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/quantum_hacking_and_security/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/the_2026_creator_economy/</loc>
+    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/creator-economy/</loc>
+    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/digital-economics/</loc>
+    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/influencer-marketing/</loc>
+    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/labor-markets/</loc>
+    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/social-media/</loc>
+    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/innovation/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/quantum-computing/</loc>
-    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/articles/quantum_computing_and_the_future_economy/</loc>
-    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/technology/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/clean-energy/</loc>

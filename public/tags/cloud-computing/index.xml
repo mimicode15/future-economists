@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cloud Computing on Future Economists</title>
+    <link>http://localhost:1313/tags/cloud-computing/</link>
+    <description>Recent content in Cloud Computing on Future Economists</description>
+    <generator>Hugo -- 0.153.4</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inference Economics: Selling Intelligence</title>
+      <link>http://localhost:1313/articles/inference_economics/</link>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/inference_economics/</guid>
+      <description>As AI spending hits $2.52 trillion annually, companies are discovering that the real cost isn&amp;#39;t training—it&amp;#39;s inference. Discover how the shift from SaaS to inference economics is reshaping corporate budgets and transforming software pricing models.</description>
+    </item>
+  </channel>
+</rss>

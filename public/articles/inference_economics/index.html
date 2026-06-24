@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Inference Economics: Selling Intelligence | Future Economists</title>
+<meta name="keywords" content="artificial intelligence, inference, economics, cloud computing, SaaS, FinOps, technology costs, AI spending">
+<meta name="description" content="As AI spending hits $2.52 trillion annually, companies are discovering that the real cost isn&#39;t training, but inference. The shift from SaaS to inference economics is reshaping corporate budgets and transforming software pricing models.">
+<meta name="author" content="Joy Ashby">
+<link rel="canonical" href="http://localhost:1313/articles/inference_economics/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8bf651a27f0d72b4e0930ae65baa88a231458c308845211ae7df62265a88a7da.css" integrity="sha256-i/ZRon8NcrTgkwrmW6qIojFFjDCIRSEa599iJlqIp9o=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/articles/inference_economics/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><link rel="icon" type="image/png" href="/images/logo.png">
+<link rel="apple-touch-icon" href="/images/logo.png">
+</head>
+<body id="top">
+    <head>
+  
+  <link rel="icon" type="image/png" href="/images/logo.png">
+  <link rel="apple-touch-icon" href="/images/logo.png">
+
+  
+  <meta property="og:title" content="Future Economists">
+  <meta property="og:description" content="Exploring economic trends, insights, and opportunities for the next generation of thinkers.">
+  <meta property="og:image" content="http://localhost:1313/images/logo.png">
+  <meta property="og:url" content="http://localhost:1313/articles/inference_economics/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/logo.png">
+</head>
+
+
+
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Future Economists (Alt + H)">
+                <img src="http://localhost:1313/images/logo.png" alt="" aria-label="logo"
+                    height="35"
+                    style="display: inline-block; margin-right: 10px; vertical-align: middle;">
+                <span style="display: inline-block; vertical-align: middle;">Future Economists</span>
+            </a>
+        </div>
+
+        
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/articles/" title="Articles">
+                    <span>Articles</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About Us">
+                    <span>About Us</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/join/" title="Join the Team">
+                    <span>Join the Team</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<div class="menu-overlay" id="menu-overlay"></div>
+
+<style>
+ 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    background: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 6px;
+    z-index: 1001;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--primary-green);
+    margin: 3px 0;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+ 
+.hamburger.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+ 
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.menu-overlay.active {
+    display: block;
+}
+
+ 
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .nav {
+        padding: 0 20px;
+    }
+
+     
+    .hamburger {
+        display: flex;
+    }
+
+     
+    #menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 75%;
+        max-width: 280px;
+        background: rgba(15, 117, 78, 0.95);   
+        backdrop-filter: blur(10px);   
+        -webkit-backdrop-filter: blur(10px);   
+        flex-direction: column;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        gap: 0;
+        transition: right 0.3s ease;
+        box-shadow: -2px 0 15px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    #menu.active {
+        right: 0;
+    }
+
+    #menu li {
+        width: 100%;
+        margin: 0;
+    }
+
+    #menu li a {
+        display: block;
+        width: 100%;
+        padding: 15px 25px;
+        font-size: 1.1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        color: white;
+    }
+
+    #menu li:last-child a {
+        border-bottom: none;
+    }
+
+    #menu li a span {
+        color: white;
+    }
+
+    #menu li a span.active {
+        font-weight: bold;
+    }
+
+     
+    .logo a span {
+        font-size: 1.1rem;
+    }
+
+    .logo img {
+        height: 25px !important;
+    }
+}
+
+ 
+@media (max-width: 1024px) and (min-width: 769px) {
+    .nav {
+        padding: 0 30px;
+    }
+}
+</style>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('menu');
+    const overlay = document.getElementById('menu-overlay');
+
+    if (!hamburger || !menu || !overlay) return;
+
+    function toggleMenu() {
+        hamburger.classList.toggle('active');
+        menu.classList.toggle('active');
+        overlay.classList.toggle('active');
+        
+        
+        if (menu.classList.contains('active')) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+    }
+
+    
+    hamburger.addEventListener('click', toggleMenu);
+    
+    
+    overlay.addEventListener('click', toggleMenu);
+
+    
+    const menuLinks = menu.querySelectorAll('a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                toggleMenu();
+            }
+        });
+    });
+
+    
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768 && menu.classList.contains('active')) {
+            toggleMenu();
+        }
+    });
+});
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/articles/">Articles</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Inference Economics: Selling Intelligence
+    </h1>
+    <div class="post-description">
+      As AI spending hits $2.52 trillion annually, companies are discovering that the real cost isn&#39;t training, but inference. The shift from SaaS to inference economics is reshaping corporate budgets and transforming software pricing models.
+    </div>
+    <div class="post-meta"><span title='2026-06-02 00:00:00 +0000 UTC'>June 2, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>Joy Ashby</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Global spending on AI (artificial intelligence) products is hitting a shocking $2.52 trillion per year, and its unexpected costs are breaking corporate budgets. Recent reports and data from CloudZero report that the rapidly increasing spending on AI tools has severely strained company balance sheets; one in five organizations overshooting their projected infrastructure spending by 50% or more.</p>
+<h2 id="the-shift-from-training-to-inference">The Shift from Training to Inference<a hidden class="anchor" aria-hidden="true" href="#the-shift-from-training-to-inference">#</a></h2>
+<p>While the initial technology boom focused mainly in the multi-billion dollar training of these AI models, the real long-term economic reality lies in inference, the ongoing, live deployment of those networks to answer everyday user input and requests, or &ldquo;prompts.&rdquo; This shift is a pivot from traditional Software-as-a-Service (SaaS) subscription models into the territory of Inference Economics. In this new region, technology companies are moving from software providers to compute wholesalers, measuring and charging for each machine-generated &ldquo;thought.&rdquo;</p>
+<h2 id="understanding-inference">Understanding Inference<a hidden class="anchor" aria-hidden="true" href="#understanding-inference">#</a></h2>
+<p>In economics, an AI &ldquo;thought&rdquo; represents a discrete, resource-heavy unit of computation called inference. Unlike other software that pulls pre-written code from a cloud database, artificial intelligence generates every response by dynamically calculating probabilities across its neural network (basically, the AI&rsquo;s &ldquo;brain&rdquo;). The components of these automated thoughts are tokens, the pieces of data representing words, pixels, and code that the AI reads and generates. Because every single token requires specialized graphic processing units (GPUs) to process complex floating-point math, every generated response has a physical expense.</p>
+<h2 id="the-economic-shift-in-saas-pricing">The Economic Shift in SaaS Pricing<a hidden class="anchor" aria-hidden="true" href="#the-economic-shift-in-saas-pricing">#</a></h2>
+<p>This tangible cost floor is causing a structural shift for AI companies creating SaaS products. Companies like Salesforce and Zendesk are moving towards a usage or output based fee, pivoting from the &ldquo;per-seat&rdquo; model to align their revenues with their expenses. For example, Zendesk now charges around $1.50 for every customer problem that its AI solves completely. By billing based on conversation or output, these software firms are treating AI as a digital unit of labor rather than a static tool. This shift highlights an economic shift: AI is removing one of software&rsquo;s key advantages, the near-zero cost of creating copies.</p>
+<h2 id="the-marginal-cost-of-ai">The Marginal Cost of AI<a hidden class="anchor" aria-hidden="true" href="#the-marginal-cost-of-ai">#</a></h2>
+<p>Because an AI-generated output requires real, physical resources, it has a noticeable marginal cost, the additional expense that a company incurs to produce one more unit of output. Every time Claude or ChatGPT answers a prompt, it draws on massive amounts of electricity from local power grids, uses water to cool data centers, and goes through expensive computing chips.</p>
+<h2 id="test-time-compute">Test-Time Compute<a hidden class="anchor" aria-hidden="true" href="#test-time-compute">#</a></h2>
+<p>Furthermore, the newest models have introduced a concept called the test-time compute. Instead of outputting a fast answer, these models are designed to pause and double-check their facts, correcting mistakes before responding. This internal calculation process triggers thousands of hidden calculations for a single question, and because of these heavy resource demands, intelligent software can never scale down to be free.</p>
+<h2 id="cloud-vs-edge-inference">Cloud vs. Edge Inference<a hidden class="anchor" aria-hidden="true" href="#cloud-vs-edge-inference">#</a></h2>
+<p>To remedy exploding data center bills, the tech industry is splitting its infrastructure into two different strategies: the cloud and the edge. With cloud inference, heavy, highly complex AI tasks stay in the cloud, running on centralized servers managed by big tech companies. This gives businesses access to the most powerful models available, but it leaves them vulnerable to unpredictable usage spikes and constant network fees. With edge inference, tech companies are pushing simpler, everyday AI tasks to the &ldquo;edge,&rdquo; meaning the AI runs locally on specialized chips called Neural Processing Units (NPUs) built directly onto the device. This gives enterprises a choice: they must audit their workflow and decide which high-value tasks are worth the expensive bill and which ones can be offloaded onto the user&rsquo;s own device.</p>
+<h2 id="the-jevons-paradox">The Jevons Paradox<a hidden class="anchor" aria-hidden="true" href="#the-jevons-paradox">#</a></h2>
+<p>Many corporate financial managers assume that because the market price of a single AI token has dropped dramatically, AI budgets will shrink. However, an economic rule known as the Jevons Paradox is occurring. The Jevons Paradox states that when technological progress makes a resource cheaper and more efficient, we don&rsquo;t actually end up saving money. Instead, the lower price tag causes mass demand, and total consumption of that resource skyrockets.</p>
+<p>Because basic AI text generation is now so cheap, engineers are no longer running just single queries. They are using cheap tokens to build automated systems where multiple AI agents &ldquo;talk&rdquo; to each other in recursive loops all day. By making individual tokens cheap to run, the industry has almost guaranteed that total corporate computing bills will skyrocket.</p>
+<h2 id="the-inference-class-and-cost-agility">The Inference Class and Cost Agility<a hidden class="anchor" aria-hidden="true" href="#the-inference-class-and-cost-agility">#</a></h2>
+<p>The biggest winners of the AI boom will be the Inference Class: practical, agile software companies that focus heavily on Financial Operations, tracking and optimizing cloud costs in real time. They buy raw AI power at cheap wholesale prices, package it smartly, and use it to solve specific, high-value problems for customers. Ultimately, economic resilience will be redefined by Cost Agility, the ability of a software platform to automatically switch out its underlying AI models without taking its system offline. In the digital economy, financial strength will belong to companies that both build strong infrastructure and manage daily AI costs with discipline and optimization.</p>
+<hr>
+<h2 id="sources-and-references">Sources and References<a hidden class="anchor" aria-hidden="true" href="#sources-and-references">#</a></h2>
+<ul>
+<li><a href="https://www.cloudzero.com/blog/finops-for-ai/">CloudZero: FinOps for AI</a></li>
+<li><a href="https://www.cloudzero.com/blog/finops-maturing-efficiency-falling-ai/">CloudZero: FinOps Maturing, Efficiency Falling</a></li>
+<li><a href="https://www.finops.org/members/cloudzero/">FinOps: CloudZero Member</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/artificial-intelligence/">Artificial Intelligence</a></li>
+      <li><a href="http://localhost:1313/tags/inference/">Inference</a></li>
+      <li><a href="http://localhost:1313/tags/economics/">Economics</a></li>
+      <li><a href="http://localhost:1313/tags/cloud-computing/">Cloud Computing</a></li>
+      <li><a href="http://localhost:1313/tags/saas/">SaaS</a></li>
+      <li><a href="http://localhost:1313/tags/finops/">FinOps</a></li>
+      <li><a href="http://localhost:1313/tags/technology-costs/">Technology Costs</a></li>
+      <li><a href="http://localhost:1313/tags/ai-spending/">AI Spending</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/articles/ai_productivity_vs_real/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>The AI Productivity Gap: Why Faster Software Isn&#39;t Boosting The Economy</span>
+  </a>
+  <a class="next" href="http://localhost:1313/articles/the_2026_creator_economy/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Being an Influencer in 2026: Sustainable Career or Saturated Market?</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    <footer class="footer">
+    <div style="margin-bottom: 12px;">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Future Economists</a></span>
+        <span> · A student-led project</span>
+    </div>
+    
+    <div class="footer-social-icons">
+        <a href="https://instagram.com/future.economists.youth" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+        </a>
+    </div>
+</footer></body>
+
+</html>
