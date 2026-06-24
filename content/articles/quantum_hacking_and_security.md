@@ -10,7 +10,7 @@ Quantum computing, which utilizes qubits (bits that can exist at 0 and 1 simulta
 
 ## The Core Vulnerability
 
-The core vulnerability is that our global financial system relies on digital locks and encryption techniques that can be easily broken by quantum computers, potentially exposing trillions of dollars and private transactions. This susceptibility stems from a fundamental reliance on mathematical systems that were not designed to last forever. Today, the global finance sector is secured by asymmetric encryption, or RSA, which protects data by using a "one-way math puzzle" where a bank multiplies two massive secret prime numbers together to create a public locking key. A classical supercomputer would take up to trillions of years to guess the original secret numbers and crack the lock, but with an approach called Shor's Algorithm, quantum computers can solve these complex math problems almost instantly.
+The core vulnerability is that our global financial system relies on digital locks and encryption techniques that can be easily broken by quantum computers, potentially exposing trillions of dollars and private transactions. This susceptibility stems from a fundamental reliance on mathematical systems that were not designed to last forever. Today, the global finance sector is secured by asymmetric encryption, or RSA, which protects data by using a "one-way math puzzle" where a bank multiplies two massive secret prime numbers together to create a public locking key. A classical supercomputer would take up to trillions of years to guess the original secret numbers and crack the lock, but with an approach called Shor's Algorithm, quantum computers can solve these complex math problems almost instantly.  Alongside RSA, banking infrastructure also relies heavily on SHA-256, a cryptographic hash function used to verify digital signatures and authenticate transactions, which is essentially a mathematical fingerprint that confirms data hasn't been tampered with. Quantum computers threaten SHA-256 through Grover's Algorithm, which would halve its effective security and make collision attacks more feasible, though SHA-256 would retain 128-bit security strength, still considered robust against near-term quantum threats.
 
 ## The Threat: Harvest Now, Decrypt Later
 
@@ -54,3 +54,6 @@ Traditional risk frameworks like Basel capital ratios are becoming obsolete in t
 - [Department of Defense: Quantum Readiness](https://media.defense.gov/2023/Aug/21/2003284212/-1/-1/0/CSI-QUANTUM-READINESS.PDF)
 - [Bank for International Settlements: Cyber Security](https://www.bis.org/about/bisih/topics/cyber_security/leap.htm)
 - [NIST: What is Post-Quantum Cryptography](https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography)
+- [Fortinet: Shor's and Grover's Algorithms - Quantum Threats to Encryption](https://www.fortinet.com/resources/cyberglossary/shors-grovers-algorithms)
+- [Wikipedia: Secure Hash Algorithms](https://en.wikipedia.org/wiki/Secure_Hash_Algorithms)
+- [NinjaOne IT Hub: What is SHA-256?](https://www.ninjaone.com/it-hub/endpoint-security/what-is-sha-256/)
