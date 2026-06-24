@@ -6,14 +6,14 @@
     <description>Recent content in Encryption on Future Economists</description>
     <generator>Hugo -- 0.153.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quantum Hacking &amp; Banking Security</title>
       <link>http://localhost:1313/articles/quantum_hacking_and_security/</link>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/articles/quantum_hacking_and_security/</guid>
-      <description>As quantum computers threaten to break modern encryption, the global banking system faces a critical vulnerability. Discover how Post-Quantum Cryptography is racing against the clock to secure trillions in financial assets.</description>
+      <description>Quantum computers threaten to break modern encryption, and the global banking system faces a critical vulnerability. Discover how Post-Quantum Cryptography is racing against the clock to secure trillions in financial assets.</description>
     </item>
   </channel>
 </rss>
