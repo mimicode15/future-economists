@@ -117,3 +117,9 @@ Know someone who might be interested? Send them our way.
 2. **Learn [About Us](/about/)** - Understand our mission and approach
 3. **[Join the Team](/join/)** - Contribute your own insights
 4. **Follow us** on Instagram for weekly content!
+
+## Read Our Newsletter
+
+Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece and get insights on new technology and the economics behind it.  <span style="font-size: 3rem;">👇</span>
+
+{{< newsletter >}}

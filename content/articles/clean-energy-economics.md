@@ -98,7 +98,13 @@ While the transition to renewable energy involves many trade-offs and high upfro
 
 By focusing on infrastructure investment and adaptable supply chains, the current transition risks can be transformed into a secure green discount for the global economy. This shift will not only benefit the planet, it will also put us on a path to achieving a low-cost energy foundation for our future.
 
+Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece and get insights on new technology and the economics behind it.  <span style="font-size: 3rem;">👇</span>
+
+{{< newsletter >}}
+
 ---
+
+
 
 ## Sources and References
 

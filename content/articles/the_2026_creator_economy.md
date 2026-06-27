@@ -12,6 +12,7 @@ The creator economy was originally valued at around $205-$245 billion in 2024-20
 
 
 
+
 ---
 
 ## Introduction
@@ -96,6 +97,11 @@ Case studies highlight the uneven results of the creator economy in total. Most 
 ## Conclusion
 
 The evidence overall shows that being an influencer in 2026 is now more lucrative and competitive than it has ever been since the creation of the creator economy. More opportunities can be built through partnerships, subscriptions, and commerce. While data shows that only a small number of creators can generate regular income flow and can sustain themselves full-time, those who can build up a platform and maintain relevancy enjoy success with financial and social opportunities in the influencer market. Influencing is a viable career for those who remain strategically adaptable and focus on the right audiences, as success hinges on building a loyal following. In summary, the influencer economy is not universally sustainable, but it offers genuine opportunities for those who approach it as a long-term, strategic business venture.
+
+
+Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece and get insights on new technology and the economics behind it.  <span style="font-size: 3rem;">👇</span>
+
+{{< newsletter >}}
 
 
 ---

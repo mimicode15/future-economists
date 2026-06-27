@@ -42,6 +42,8 @@
   </div>
   {{- end }}
 
+  
+
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
@@ -61,20 +63,5 @@
   {{- partial "comments.html" . }}
   {{- end }}
 </article>
-
-<div class="article-newsletter-card">
-  <h3>Stay in the loop</h3>
-  <p>Get weekly insights on tech economics, emerging technologies, and the future of finance.</p>
-  <form
-    action="https://buttondown.com/api/emails/embed-subscribe/FutureEconomists"
-    method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://buttondown.com/FutureEconomists', 'popupwindow')"
-    class="article-newsletter-form"
-  >
-    <input type="email" name="email" placeholder="your@email.com" required />
-    <button type="submit">Subscribe</button>
-  </form>
-</div>
 
 {{- end }}{{/* end main */}}

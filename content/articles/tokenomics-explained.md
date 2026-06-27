@@ -109,6 +109,11 @@ To sum it up, tokenomics is the essential economic framework behind every crypto
 For further reading, check out the sources below!
 
 
+Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece and get insights on new technology and the economics behind it.  <span style="font-size: 3rem;">👇</span>
+
+{{< newsletter >}}
+
+
 ## Sources and Bibliography
 
 - https://hacken.io/discover/tokenomics/
