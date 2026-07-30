@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>The Solutions to Quantum Hacking &amp; The Economics Behind PQC | Future Economists</title>
+<meta name="keywords" content="quantum computing, post-quantum cryptography, cybersecurity, encryption, market trends, hardware, financial security, technology economics">
+<meta name="description" content="As quantum computers threaten encryption, a $20 billion market is emerging to defend global infrastructure. Discover who profits from the quantum security transition—and why smaller banks face elimination.">
+<meta name="author" content="Joy Ashby">
+<link rel="canonical" href="http://localhost:1313/articles/pqc_economics/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7a46b715f014fc1b35004fea36265506bd6925d84d5b234716d60cf877546e75.css" integrity="sha256-eka3FfAU/Bs1AE/qNiZVBr1pJdhNWyNHFtYM&#43;HdUbnU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/articles/pqc_economics/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><link rel="icon" type="image/png" href="/images/logo.png">
+<link rel="apple-touch-icon" href="/images/logo.png">
+</head>
+<body id="top">
+    <head>
+  
+  <link rel="icon" type="image/png" href="/images/logo.png">
+  <link rel="apple-touch-icon" href="/images/logo.png">
+
+  
+  <meta property="og:title" content="Future Economists">
+  <meta property="og:description" content="Exploring economic trends, insights, and opportunities for the next generation of thinkers.">
+  <meta property="og:image" content="http://localhost:1313/images/logo.png">
+  <meta property="og:url" content="http://localhost:1313/articles/pqc_economics/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/logo.png">
+</head>
+
+
+
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Future Economists (Alt + H)">
+                <img src="http://localhost:1313/images/logo.png" alt="" aria-label="logo"
+                    height="35"
+                    style="display: inline-block; margin-right: 10px; vertical-align: middle;">
+                <span style="display: inline-block; vertical-align: middle;">Future Economists</span>
+            </a>
+        </div>
+
+        
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/articles/" title="Articles">
+                    <span>Articles</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About Us">
+                    <span>About Us</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/join/" title="Join the Team">
+                    <span>Join the Team</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<div class="menu-overlay" id="menu-overlay"></div>
+
+<style>
+ 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    background: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 6px;
+    z-index: 1001;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--primary-green);
+    margin: 3px 0;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+ 
+.hamburger.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+ 
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.menu-overlay.active {
+    display: block;
+}
+
+ 
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .nav {
+        padding: 0 20px;
+    }
+
+     
+    .hamburger {
+        display: flex;
+    }
+
+     
+    #menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 75%;
+        max-width: 280px;
+        background: rgba(15, 117, 78, 0.95);   
+        backdrop-filter: blur(10px);   
+        -webkit-backdrop-filter: blur(10px);   
+        flex-direction: column;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        gap: 0;
+        transition: right 0.3s ease;
+        box-shadow: -2px 0 15px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    #menu.active {
+        right: 0;
+    }
+
+    #menu li {
+        width: 100%;
+        margin: 0;
+    }
+
+    #menu li a {
+        display: block;
+        width: 100%;
+        padding: 15px 25px;
+        font-size: 1.1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        color: white;
+    }
+
+    #menu li:last-child a {
+        border-bottom: none;
+    }
+
+    #menu li a span {
+        color: white;
+    }
+
+    #menu li a span.active {
+        font-weight: bold;
+    }
+
+     
+    .logo a span {
+        font-size: 1.1rem;
+    }
+
+    .logo img {
+        height: 25px !important;
+    }
+}
+
+ 
+@media (max-width: 1024px) and (min-width: 769px) {
+    .nav {
+        padding: 0 30px;
+    }
+}
+</style>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('menu');
+    const overlay = document.getElementById('menu-overlay');
+
+    if (!hamburger || !menu || !overlay) return;
+
+    function toggleMenu() {
+        hamburger.classList.toggle('active');
+        menu.classList.toggle('active');
+        overlay.classList.toggle('active');
+        
+        
+        if (menu.classList.contains('active')) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+    }
+
+    
+    hamburger.addEventListener('click', toggleMenu);
+    
+    
+    overlay.addEventListener('click', toggleMenu);
+
+    
+    const menuLinks = menu.querySelectorAll('a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                toggleMenu();
+            }
+        });
+    });
+
+    
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768 && menu.classList.contains('active')) {
+            toggleMenu();
+        }
+    });
+});
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/articles/">Articles</a></div>
+    <h1 class="post-title entry-hint-parent">
+      The Solutions to Quantum Hacking &amp; The Economics Behind PQC
+    </h1>
+    <div class="post-description">
+      As quantum computers threaten encryption, a $20 billion market is emerging to defend global infrastructure. Discover who profits from the quantum security transition—and why smaller banks face elimination.
+    </div>
+    <div class="post-meta"><span title='2026-07-30 00:00:00 +0000 UTC'>July 30, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>Joy Ashby</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Historically, computers have processed information using binary bits, which only exist as a 0 or 1. Quantum computing rewrites this rule by utilizing qubits, units of data that can exist in multiple states simultaneously, to process vast numbers of possibilities at once and solve problems that would take a classical computer thousands of years to compute. However, while this new technology can revolutionize fields like medicine and science, it also poses a huge threat to global security. Because quantum computers can calculate complex math instantly, they can easily break the current encryption used to protect everything from banks to blockchain technology to classified government data, potentially breaking the digital system. To prevent this potential collapse, quantum researchers are developing new frameworks known as post-quantum cryptography to secure data within new mathematical puzzles that even quantum computers cannot decrypt.</p>
+<h2 id="the-timeline-when-quantum-breaks-encryption">The Timeline: When Quantum Breaks Encryption<a hidden class="anchor" aria-hidden="true" href="#the-timeline-when-quantum-breaks-encryption">#</a></h2>
+<p>Upgrading the world&rsquo;s digital infrastructure to hold against quantum hacking has officially transitioned from a theoretical computer science problem to an impending deadline. Data from a landmark Citi GPS report outlines a 19% to 34% chance that quantum computers will break public-key encryption by 2034, and those odds increase to 60% to 82% by 2044. Solutions are in development now, even as quantum computers are not in widespread use, because building, iterating, and deploying these new encryption systems globally takes years.</p>
+<h2 id="the-economic-impact-of-delay">The Economic Impact of Delay<a hidden class="anchor" aria-hidden="true" href="#the-economic-impact-of-delay">#</a></h2>
+<p>The potential economic fallout of delaying this transition is immense. A single day quantum cyberattack targeting the Fedwire connection of a top-five US bank would cause a financial crisis nationwide. This single disruption could put an estimated $2.0 to $3.3 trillion in indirect economic output at risk, wiping out 10% to 17% of the US GDP within hours.</p>
+<h2 id="how-current-encryption-fails-and-what-doesnt">How Current Encryption Fails (And What Doesn&rsquo;t)<a hidden class="anchor" aria-hidden="true" href="#how-current-encryption-fails-and-what-doesnt">#</a></h2>
+<p>To understand the primary defense against quantum hacking, it&rsquo;s crucial to understand how current encryption fails. It&rsquo;s important to note that not all digital encryption is vulnerable. For example, SHA-256, the cryptographic hashing algorithm that protects everything from secure passwords to blockchain ledgers, are resilient against quantum because they don&rsquo;t rely on public-private key mathematics. The point of failure lies in public-key protocols like RSA, which protects daily web browsing, corporate VPNs, and bank transfers, securing this data behind long prime numbers. A classical computer would take centuries to guess these numbers, while quantum computers utilizing Shor&rsquo;s algorithm can decrypt the puzzle in minutes.</p>
+<h2 id="lattice-based-cryptography-the-primary-solution">Lattice-Based Cryptography: The Primary Solution<a hidden class="anchor" aria-hidden="true" href="#lattice-based-cryptography-the-primary-solution">#</a></h2>
+<p>The primary replacement for these vulnerable public-key systems, backed by global authorities like the National Institute of Standards and Technology (NIST), is lattice-based cryptography. Instead of using numeric equations, lattice-based cryptography hides security keys inside huge, multi-dimensional geometric grids containing hundreds of intersecting coordinates. For businesses and corporations, the best part of lattice-based cryptography is its financial practicality. Because it relies on geometry that is processed by standard algebra, it doesn&rsquo;t require companies to purchase actual quantum computing hardware. Companies can deploy these advanced mathematical protections directly onto their existing cloud servers, working alongside safe tools like SHA-256 to protect their data while lowering the upfront cost of the transition.</p>
+<h2 id="the-20-billion-market-and-commercial-winners">The $20 Billion Market and Commercial Winners<a hidden class="anchor" aria-hidden="true" href="#the-20-billion-market-and-commercial-winners">#</a></h2>
+<p>Rebuilding the encryption foundations of the global economy has triggered a massive reallocation of corporate capital. Upgrading encryption software to use lattice-based cryptography has grown from an IT project into a commercial system. Market data shows that the global Post-Quantum Cryptography (PQC) market, valued at roughly $1.6 billion in 2025, is on track to grow past $20 billion within the next decade as deadlines creep closer. This influx of capital is not being evenly spent, however. It is separated into distinct commercial sectors, revealing clear economic winners. Surprisingly, the largest section of commercial spending is going toward finding old software rather than buying new software. This is because decades of code are buried within corporate applications, cloud networks, and database mainframes. Companies are now paying tech giants huge sums of money to perform cryptographic audits. Design, implementation, and consulting firms are capturing a significant share of early market revenues. While lattice-based algorithms can run on standard servers, they carry a heavy performance task. Lattice encryption keys are significantly larger and computationally heavier than traditional systems. Processing them at scale requires specialized hardware. This is causing a major replacement cycle for Hardware Security Modules (HSMs), which are the physical vaults that banks use to store encryption keys. With individual enterprise appliances often costing $20,000 to $100,000 or more, legacy hardware sellers are seeing an unprecedented sales increase.</p>
+<h2 id="the-consolidation-crisis-for-small-banks">The Consolidation Crisis for Small Banks<a hidden class="anchor" aria-hidden="true" href="#the-consolidation-crisis-for-small-banks">#</a></h2>
+<p>While multi-billion-dollar global institutions can handle the capital-expenditure change of rewriting code and purchasing new security modules more easily, the microeconomics of the PQC migration create a competitive disadvantage for smaller regional banks and credit unions. Implementing post-quantum networks requires massive computing infrastructure and skill. Because larger lattice keys require more bandwidth and processing power, smaller firms face a hard choice: they either pay for highly expensive, profit-diminishing technology upgrades, or shut down private servers and rely on big tech platforms. This situation is causing a wave of market consolidation, as smaller companies outsource their infrastructure to cloud-based hyperscalers who can distribute the high cost of quantum defense across thousands of other banks and businesses.</p>
+<h2 id="government-mandates-and-insurance-pressure">Government Mandates and Insurance Pressure<a hidden class="anchor" aria-hidden="true" href="#government-mandates-and-insurance-pressure">#</a></h2>
+<p>Government mandates like the US federal guidelines require high-risk public systems to begin migrating to PQC by 2030, with full migration required by 2035, however the private sector is being forced to move much faster due to the commercial cyber market. As data storage costs drop, the amount of data collected in &ldquo;Harvest Now, Decrypt Later&rdquo; campaigns (where attackers collect sensitive data with the intent to decrypt it with quantum computers once they become widely available) continues to grow. The data stolen today is almost a guaranteed payout once the attackers have quantum access, if it remains encrypted with old public keys.</p>
+<p>To protect themselves from massive future payouts, insurance companies are rewriting their rules, adding quantum exclusions to their policies. If a business cannot prove that it is actively upgrading to quantum-safe security, then it can either pay high insurance bills or lose coverage entirely. This financial pressure has shifted quantum security from an optional tech project to the only way for a company to ensure security. As insurance companies avoid the risk, it leaves corporate leaders with a pressing decision: how fast can a company rewrite its digital defenses before its safety net disappears?</p>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>All in all, the same technological breakthrough that will transform medicine, logistics, and energy is also capable of breaking the financial systems that these industries depend on. Encryption was not meant to last forever, and now the deadline is closing in on a concrete timeline. The question is now whether or not these industries can rebuild and upgrade their systems before the deadline makes the decision for them.</p>
+<hr>
+<h2 id="sources-and-references">Sources and References<a hidden class="anchor" aria-hidden="true" href="#sources-and-references">#</a></h2>
+<ul>
+<li>
+<p><a href="https://www.ibm.com/products/guardium-cryptography-manager">IBM Guardium Cryptography Manager Hub</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/quantum/quantum-safe">IBM Quantum-Safe Solutions Overview</a></p>
+</li>
+<li>
+<p><a href="https://quantum.cloud.ibm.com/learning/en/courses/quantum-safe-cryptography">IBM Quantum-Safe Cryptography Learning Course</a></p>
+</li>
+<li>
+<p><a href="https://www.fortinet.com/resources/cyberglossary/quantum-security">Fortinet Cyberglossary: What Is Quantum Security?</a></p>
+</li>
+<li>
+<p><a href="https://www.citigroup.com/global/insights/tags/corporate-finance">Citi Global Insights: Corporate Finance &amp; Quantum Market Metrics</a></p>
+</li>
+<li>
+<p><a href="https://thequantuminsider.com/">The Quantum Insider Portal</a></p>
+</li>
+<li>
+<p><a href="https://thequantuminsider.com/2026/04/27/quantum-security-threats-solutions-race-protect-data/">The Quantum Insider: The Quantum Security Race</a></p>
+</li>
+<li>
+<p><a href="https://thequantuminsider.com/2026/07/07/nsf-launches-project-triad-to-advance-quantum-technology-for-real-world-applications/">The Quantum Insider: NSF Launches Project TRIAD for Real-World Quantum Applications</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/think/perspectives/quantum-computers-are-speeding-towards-cryptographic-relevancy">IBM Perspectives: Quantum Computers Are Speeding Towards Cryptographic Relevancy</a></p>
+</li>
+<li>
+<p><a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.203.pdf">NIST FIPS 203 Finalized Standard Document</a></p>
+</li>
+</ul>
+
+
+  </div>
+
+  
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/quantum-computing/">Quantum Computing</a></li>
+      <li><a href="http://localhost:1313/tags/post-quantum-cryptography/">Post-Quantum Cryptography</a></li>
+      <li><a href="http://localhost:1313/tags/cybersecurity/">Cybersecurity</a></li>
+      <li><a href="http://localhost:1313/tags/encryption/">Encryption</a></li>
+      <li><a href="http://localhost:1313/tags/market-trends/">Market Trends</a></li>
+      <li><a href="http://localhost:1313/tags/hardware/">Hardware</a></li>
+      <li><a href="http://localhost:1313/tags/financial-security/">Financial Security</a></li>
+      <li><a href="http://localhost:1313/tags/technology-economics/">Technology Economics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/articles/quantum_hacking_and_security/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Quantum Hacking &amp; Banking Security</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    <footer class="footer">
+    <div style="margin-bottom: 12px;">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Future Economists</a></span>
+        <span> · A student-led project</span>
+    </div>
+    
+    <div class="footer-social-icons">
+        <a href="https://instagram.com/future.economists.youth" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+        </a>
+    </div>
+</footer></body>
+
+</html>

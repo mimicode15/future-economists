@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Cybersecurity on Future Economists</title>
-    <link>http://localhost:1313/tags/cybersecurity/</link>
-    <description>Recent content in Cybersecurity on Future Economists</description>
+    <title>Market Trends on Future Economists</title>
+    <link>http://localhost:1313/tags/market-trends/</link>
+    <description>Recent content in Market Trends on Future Economists</description>
     <generator>Hugo -- 0.153.4</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/market-trends/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post-Quantum Cryptography: Building the $20 Billion Defense Against Quantum Hacking</title>
       <link>http://localhost:1313/articles/pqc_economics/</link>
       <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/articles/pqc_economics/</guid>
       <description>As quantum computers threaten encryption, a $20 billion market is emerging to defend global infrastructure. Discover who profits from the quantum security transition—and why smaller banks face elimination.</description>
-    </item>
-    <item>
-      <title>Quantum Hacking &amp; Banking Security</title>
-      <link>http://localhost:1313/articles/quantum_hacking_and_security/</link>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/quantum_hacking_and_security/</guid>
-      <description>Quantum computers threaten to break modern encryption, and the global banking system faces a critical vulnerability. Discover how Post-Quantum Cryptography is racing against the clock to secure trillions in financial assets.</description>
     </item>
   </channel>
 </rss>
