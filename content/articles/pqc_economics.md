@@ -1,7 +1,7 @@
 ---
 title: "The Solutions to Quantum Hacking & The Economics Behind PQC"
 date: 2026-07-30
-description: "As quantum computers threaten encryption, a $20 billion market is emerging to defend global infrastructure. Discover who profits from the quantum security transition—and why smaller banks face elimination."
+description: "As quantum computers threaten encryption, a $20 billion market is emerging to protect global infrastructure. Learn who profits from the quantum security transition, and why smaller banks may face elimination."
 author: "Joy Ashby"
 tags: ["quantum computing", "post-quantum cryptography", "cybersecurity", "encryption", "market trends", "hardware", "financial security", "technology economics"]
 ---
