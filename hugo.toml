@@ -62,3 +62,7 @@ weight = 5
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-RR5Y93FC9V"
