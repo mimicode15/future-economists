@@ -61,7 +61,7 @@ The United Nations has designated 2025 as the International Year of Quantum Scie
 
 Quantum computing is transitioning from a theoretical technology to an economic driver. While hardware fragility and the need for new encryption standards present challenges, the projected growth suggests it will become a core component of the global technological infrastructure. Ultimately, the economic impact won't come from a total replacement of current systems, but from the ability to solve specific optimization and simulation problems that have remained impossible for binary computers to solve for decades.
 
-Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece and get insights on new technology and the economics behind it.  <span style="font-size: 3rem;">👇</span>
+Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece and get insights on new technology and the economics behind it.  <span style="font-size: 1.5rem;">👇</span>
 
 {{< newsletter >}}
 

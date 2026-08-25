@@ -6,14 +6,21 @@
     <description>Recent content in Articles on Future Economists</description>
     <generator>Hugo -- 0.153.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Would You Trust AI To Manage Your Money?</title>
+      <link>http://localhost:1313/articles/ai_financial_advisors/</link>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/ai_financial_advisors/</guid>
+      <description>OpenAI&amp;#39;s Finances in ChatGPT puts a real-time financial analyst in your pocket. But between hallucinations, hidden fees, and zero fiduciary duty, is AI ready to manage your money?</description>
+    </item>
     <item>
       <title>The Solutions to Quantum Hacking &amp; The Economics Behind PQC</title>
       <link>http://localhost:1313/articles/pqc_economics/</link>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/articles/pqc_economics/</guid>
-      <description>As quantum computers threaten encryption, a $20 billion market is emerging to defend global infrastructure. Discover who profits from the quantum security transition—and why smaller banks face elimination.</description>
+      <description>As quantum computers threaten encryption, a $20 billion market is emerging to protect global infrastructure. Learn who profits from the quantum security transition, and why smaller banks may face elimination.</description>
     </item>
     <item>
       <title>Quantum Hacking &amp; Banking Security</title>

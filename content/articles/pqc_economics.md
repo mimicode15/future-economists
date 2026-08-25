@@ -42,7 +42,7 @@ To protect themselves from massive future payouts, insurance companies are rewri
 
 All in all, the same technological breakthrough that will transform medicine, logistics, and energy is also capable of breaking the financial systems that these industries depend on. Encryption was not meant to last forever, and now the deadline is closing in on a concrete timeline. The question is now whether or not these industries can rebuild and upgrade their systems before the deadline makes the decision for them.
 
-Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece and get insights on new technology and the economics behind it.  <span style="font-size: 3rem;">👇</span>
+Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece and get insights on new technology and the economics behind it.  <span style="font-size: 1.5rem;">👇</span>
 
 {{< newsletter >}}
 

@@ -120,6 +120,6 @@ Know someone who might be interested? Send them our way.
 
 ## Read Our Newsletter
 
-Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece and get insights on new technology and the economics behind it.  <span style="font-size: 3rem;">👇</span>
+Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece and get insights on new technology and the economics behind it.  <span style="font-size: 1.5rem;">👇</span>
 
 {{< newsletter >}}

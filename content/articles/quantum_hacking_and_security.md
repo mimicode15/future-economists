@@ -45,7 +45,7 @@ As individual firms content these operational reboot costs, the nations backing 
 Traditional risk frameworks like Basel capital ratios are becoming obsolete in the face of quantum computing, as deep fiat reserves and gold vaults are almost useless if an attacker can invalidate a bank's ledger verification system in hours. Moving forward, financial resilience will be redefined with Cryptographic Agility, that is, the structural capacity of a network to shift its defense mechanisms without taking critical components offline. Consequently, a nation's true economic strength will not only be measured by its wealth, but also the speed at which it can reprogram its encryption under time pressure. 
 An upgrade to quantum-resistant cryptography is necessary to prevent quantum hacking even before these computers become widely available.  
 
-Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece, deep-diving into the solutions to quantum hacking and the economics behind them. <span style="font-size: 3rem;">👇</span>
+Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece, deep-diving into the solutions to quantum hacking and the economics behind them. <span style="font-size: 1.5rem;">👇</span>
 
 {{< newsletter >}}
 
