@@ -2,10 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/ai-regulation/</loc>
-    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/ai-spending/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/artificial-intelligence/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cloud-computing/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/economics/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/finops/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/inference/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/ai_inference_article/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/saas/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/technology-costs/</loc>
+    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai-regulation/</loc>
     <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/chatgpt/</loc>
@@ -17,13 +47,7 @@
     <loc>http://localhost:1313/tags/fintech/</loc>
     <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/personal-finance/</loc>
-    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/wealth-management/</loc>
@@ -85,9 +109,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/social-media/</loc>
     <lastmod>2026-04-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/economics/</loc>
-    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/innovation/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
