@@ -6,8 +6,22 @@
     <description>Recent content in Articles on Future Economists</description>
     <generator>Hugo -- 0.153.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Economics of Private Space Stations</title>
+      <link>http://localhost:1313/articles/the_economics_of_private_space_stations/</link>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/the_economics_of_private_space_stations/</guid>
+      <description>As the International Space Station nears retirement, private companies are racing to turn human presence in orbit into a profitable business. Part 2 of a four-part look at the economics of the space industry.</description>
+    </item>
+    <item>
+      <title>The Space Economy</title>
+      <link>http://localhost:1313/articles/the_space_economy/</link>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/the_space_economy/</guid>
+      <description>Launch costs have collapsed by more than 90%, turning space from a government-run frontier into a commercial marketplace. Part 1 of a four-part look at the economics of the space industry.</description>
+    </item>
     <item>
       <title>Inference Economics: Selling Intelligence</title>
       <link>http://localhost:1313/articles/ai_inference_article/</link>
