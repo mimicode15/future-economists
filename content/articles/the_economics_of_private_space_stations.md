@@ -45,6 +45,9 @@ Lastly, commercial stations are monetizing external hull attachments and interna
 While long-term forecasts project a trillion-dollar orbital economy, private stations face the immediate challenge of the ticking clock. The main danger is an orbital capability gap. According to reports from NASA's OIG and the GAO, building and certifying private stations before the ISS retires around 2030 leaves almost no room for error. If delays occur, the U.S. and its partners could lose continuous access to low Earth orbit, leaving China’s Tiangong as the only crewed outpost. Beyond timing, operators face a demand cliff. While launches are cheaper, commercial demand for microgravity research and manufacturing is still unproven at scale. Without paying customers, companies will fight over limited government grants.
 
 Commercial space stations are the space in which aerospace engineering directly intersects with real estate, private equity, and industrial manufacturing economics. If private operators meet their engineering schedules and manage to establish self-sustaining and non-governmental demand, low Earth orbit will soon evolve into a functioning, global, and lucrative industrial marketplace. If they fail to bridge the operational gap before the ISS burns up in the upper atmosphere, the global space economy will face an unprecedented retreat from the commercial frontier.
+In the next article of this series: Factories in Orbit; Manufacturing in microgravity removes Earth’s physical limits, allowing startups to forge near-flawless fiber optics and life-saving drugs that are impossible to synthesize on the ground.
+
+As launch and re-entry costs plummet, low Earth orbit is transforming from a scientific frontier into the world’s most lucrative high-tech factory floor.
 
 Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece. <span style="font-size: 1.5rem;">👇</span>
 
