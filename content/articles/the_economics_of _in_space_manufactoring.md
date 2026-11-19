@@ -1,7 +1,7 @@
 ---
 title: "Factories in Orbit: The Economics of In-Space Manufacturing"
 date: 2026-11-19
-description: "TODO: add a one-to-two sentence description (not in the original draft). Part 3 of a four-part look at the economics of the space industry."
+description: "From cancer drugs to ultra-clear optical fibers, microgravity is turning low Earth orbit into a high-tech factory floor, but only products that pass a strict price-per-kilogram test make the trip. Part 3 of a four-part look at the economics of the space industry."
 author: "Joy Ashby"
 tags: ["space economy", "economics", "in-space manufacturing", "microgravity", "low Earth orbit", "commercial space"]
 ---
