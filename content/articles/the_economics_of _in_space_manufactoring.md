@@ -28,11 +28,11 @@ Overall, the goods that will be created in space will share this theme: they wil
 
 Currently, three big industries fit that criteria. Precision pharmaceuticals, ultra-clear optical fibers, and next-generation semiconductors are all produced in monitored, delicate environments and sold for high amounts.
 
-**Precision Pharmaceuticals:** a tiny, lightweight dose of a highly-demanded medicine holds high value. And in microgravity, drug molecules form larger, more uniform crystals than they do on Earth. Companies like Varda Space Industries have already produced crystals of the antiviral drug ritonavir (used as a pharmacokinetic "booster" in combination with other medications to treat mainly HIV/AIDS and COVID-19) in orbiting capsules and returned them to Earth safely and intact. The pharmaceutical giant Merck has used space experiments to study and improve how its cancer drug Keytruda is structured, with the purpose of turning long hospital IV drips into a simple, swift injection.
+**Precision Pharmaceuticals:** a tiny, lightweight dose of a highly-demanded medicine holds high value. And in microgravity, drug molecules form larger, more uniform crystals than they do on Earth. Companies like <a href="https://www.varda.com/" target="_blank" rel="noopener noreferrer">Varda Space Industries</a> have already produced crystals of the antiviral drug ritonavir (used as a pharmacokinetic "booster" in combination with other medications to treat mainly HIV/AIDS and COVID-19) in orbiting capsules and returned them to Earth safely and intact. The pharmaceutical giant <a href="https://finance.yahoo.com/quote/MRK" target="_blank" rel="noopener noreferrer">Merck</a> has used space experiments to study and improve how its cancer drug Keytruda is structured, with the purpose of turning long hospital IV drips into a simple, swift injection.
 
-**Ultra-Clear Optical Fibers:** Over long distances, standard glass internet cables lose signal strength, often due to gravity causing microscopic crystal flaws in the glass as it cools. Aboard the International Space Station (ISS), companies like Redwire produce a specialized fluoride glass called ZBLAN. Without gravity to pull at the cooling glass, ZBLAN fibers transmit light with much less signal loss than the standard cables, making them highly valuable for undersea communications and precision medical lasers.
+**Ultra-Clear Optical Fibers:** Over long distances, standard glass internet cables lose signal strength, often due to gravity causing microscopic crystal flaws in the glass as it cools. Aboard the International Space Station (ISS), companies like <a href="https://finance.yahoo.com/quote/RDW" target="_blank" rel="noopener noreferrer">Redwire</a> produce a specialized fluoride glass called ZBLAN. Without gravity to pull at the cooling glass, ZBLAN fibers transmit light with much less signal loss than the standard cables, making them highly valuable for undersea communications and precision medical lasers.
 
-**Next-Generation Semiconductors:** Every modern computer chip contains ultra-pure crystal wafers, invaluable for transmitting electricity quickly without overheating. Startups like the UK-based Space Forge are building returnable in-orbit platforms to create defect-free semiconductor crystals in space. Even a tiny batch of these space-grown “seed” crystals can be brought back to Earth and used to manufacture faster, cooler, and more energy-efficient chips that are key for building AI data centers and electric vehicles.
+**Next-Generation Semiconductors:** Every modern computer chip contains ultra-pure crystal wafers, invaluable for transmitting electricity quickly without overheating. Startups like the UK-based <a href="https://www.spaceforge.com/" target="_blank" rel="noopener noreferrer">Space Forge</a> are building returnable in-orbit platforms to create defect-free semiconductor crystals in space. Even a tiny batch of these space-grown “seed” crystals can be brought back to Earth and used to manufacture faster, cooler, and more energy-efficient chips that are key for building AI data centers and electric vehicles.
 
 ## Autonomous Capsules vs. Crewed Stations
 
@@ -48,20 +48,15 @@ How can these companies be sure that they will make a profit from their immense 
 
 Right now, only a few ultra-high value products clear that bar. Yet as reusable heavy-lift rockets lower launch costs yearly, that break-even threshold will steadily drop, transforming LEO into a profitable, productive, and invaluable link in the global supply chain.
 
-Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece. <span style="font-size: 1.5rem;">👇</span>
-
-{{< newsletter >}}
-
 ---
 
-
 ## Sources
- 
-- [NASA Science / ISS National Lab – Microgravity R&D Update (PDF)](https://science.nasa.gov/wp-content/uploads/2024/09/1-7-casis-iss-update-roberts-2024.pdf)
-- [Varda Space Industries – Return of the Ritonavir: A Study on the Stability of Pharmaceuticals Processed in Orbit](https://www.varda.com/science/return-of-the-ritonavir)
-- [ISS U.S. National Laboratory – Merck Research Laboratories Publishes Pembrolizumab Results](https://issnationallab.org/iss360/merck-lab-publishes-pembrolizumab-results/)
-- [NASA – Optical Fiber Production in Microgravity](https://www.nasa.gov/missions/station/iss-research/optical-fiber-production/)
-- [ISS U.S. National Laboratory – Taking ZBLAN Optical Fiber Production to Space](https://issnationallab.org/iss360/taking-zblan-optical-fiber-production-to-space/)
-- [Space Forge – In-Space Semiconductor Growth](https://www.spaceforge.com/in-space-growth)
-- [McKinsey & Company – The Potential of Microgravity: How Companies Across Sectors Can Venture into Space](https://www.mckinsey.com/industries/aerospace-and-defense/our-insights/the-potential-of-microgravity-how-companies-across-sectors-can-venture-into-space)
-- [SpaceNexus – Space Launch Cost Comparison & Cost Per Kilogram Data](https://spacenexus.us/guide/space-launch-cost-comparison)
+
+- <a href="https://science.nasa.gov/wp-content/uploads/2024/09/1-7-casis-iss-update-roberts-2024.pdf" target="_blank" rel="noopener noreferrer">NASA Science / ISS National Lab – Microgravity R&D Update (PDF)</a>
+- <a href="https://www.varda.com/science/return-of-the-ritonavir" target="_blank" rel="noopener noreferrer">Varda Space Industries – Return of the Ritonavir: A Study on the Stability of Pharmaceuticals Processed in Orbit</a>
+- <a href="https://issnationallab.org/iss360/merck-lab-publishes-pembrolizumab-results/" target="_blank" rel="noopener noreferrer">ISS U.S. National Laboratory – Merck Research Laboratories Publishes Pembrolizumab Results</a>
+- <a href="https://www.nasa.gov/missions/station/iss-research/optical-fiber-production/" target="_blank" rel="noopener noreferrer">NASA – Optical Fiber Production in Microgravity</a>
+- <a href="https://issnationallab.org/iss360/taking-zblan-optical-fiber-production-to-space/" target="_blank" rel="noopener noreferrer">ISS U.S. National Laboratory – Taking ZBLAN Optical Fiber Production to Space</a>
+- <a href="https://www.spaceforge.com/in-space-growth" target="_blank" rel="noopener noreferrer">Space Forge – In-Space Semiconductor Growth</a>
+- <a href="https://www.mckinsey.com/industries/aerospace-and-defense/our-insights/the-potential-of-microgravity-how-companies-across-sectors-can-venture-into-space" target="_blank" rel="noopener noreferrer">McKinsey & Company – The Potential of Microgravity: How Companies Across Sectors Can Venture into Space</a>
+- <a href="https://spacenexus.us/guide/space-launch-cost-comparison" target="_blank" rel="noopener noreferrer">SpaceNexus – Space Launch Cost Comparison & Cost Per Kilogram Data</a>
