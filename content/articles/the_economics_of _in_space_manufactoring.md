@@ -48,6 +48,10 @@ How can these companies be sure that they will make a profit from their immense 
 
 Right now, only a few ultra-high value products clear that bar. Yet as reusable heavy-lift rockets lower launch costs yearly, that break-even threshold will steadily drop, transforming LEO into a profitable, productive, and invaluable link in the global supply chain.
 
+Subscribe to the Future Economists newsletter **by entering your email below** to stay updated on our next piece. <span style="font-size: 1.5rem;">👇</span>
+
+{{< newsletter >}}
+
 ---
 
 ## Sources
